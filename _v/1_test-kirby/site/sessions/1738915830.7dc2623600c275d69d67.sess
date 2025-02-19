@@ -1,0 +1,2 @@
+93aef6b71e2f57ab8b7e571ad1767bf0d0ffcd0c1abeefbe779272659f949e16
+a:7:{s:9:"startTime";i:1738908630;s:10:"expiryTime";i:1738915830;s:8:"duration";i:7200;s:7:"timeout";i:1800;s:12:"lastActivity";i:1738908630;s:9:"renewable";b:1;s:4:"data";a:1:{s:10:"panel.path";s:50:"vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";}}
