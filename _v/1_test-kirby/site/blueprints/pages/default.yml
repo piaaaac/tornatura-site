@@ -12,11 +12,11 @@ tabs:
               # text:
               #   extends: fields/writer-field
               #   label: Text
-            blocks:
-              type: blocks
-              fieldsets:
-                - text
-                - image
+              blocks:
+                type: blocks
+                fieldsets:
+                  - text
+                  - image
 
       sidebar:
         width: 1/3

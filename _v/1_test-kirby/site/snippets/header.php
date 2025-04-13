@@ -1,3 +1,10 @@
+<?php
+
+/**
+ * @param noPadding boolean
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,4 +28,4 @@
 </head>
 
 <body>
-  <main>
+  <main class="<?= $noPadding ? 'no-padding' : '' ?>">

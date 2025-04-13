@@ -1,4 +1,4 @@
-<?php snippet("header") ?>
+<?php snippet("header", ["noPadding" => true]) ?>
 
 <?php snippet("home-opening") ?>
 

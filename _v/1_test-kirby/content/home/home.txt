@@ -2,4 +2,84 @@ Title: Home
 
 ----
 
+Openingimage: - file://svrXa1yLf1UIjymE
+
+----
+
+Openingtext1: Tornatura mira a sviluppare una soluzione d’intelligenza artificiale che faciliti il lavoro di agricoltori e tecnici agronomi alle prese con malattie e avversità delle piante.
+
+----
+
+Openingtext2: Peronospera, diabrotica, cimice asiatica e flavescenza dorata minacciano il raccolto: Tornatura fornirà una soluzione su misura per il tuo campo. Partecipa alla sperimentazione per contribuire alla rivoluzione digitale dell’agricoltura.
+
+----
+
+Blocks: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
 Uuid: xROBWf7t0HErpZx7

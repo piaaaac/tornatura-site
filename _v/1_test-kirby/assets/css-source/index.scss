@@ -139,8 +139,8 @@ $space: 33px;
 body {
   overflow-x: hidden;
   width: 100vw;
-  background-color: black;
-  color: grey;
+  background-color: white;
+  color: black;
   &.media-open {
     overflow: hidden;
   }
@@ -148,6 +148,9 @@ body {
 
 main {
   padding-top: $menu-h;
+  &.no-padding {
+    padding-top: 0;
+  }
 }
 
 hr {
@@ -291,6 +294,8 @@ figure {
 section.home-opening-image {
   aspect-ratio: 16/9;
   background-color: rgba(gray, 0.2);
+  background-position: center center;
+  background-size: cover;
   // max-height: 80vh;
   // max-min-width: 100vw;
   @include media-breakpoint-down(sm) {
@@ -308,7 +313,7 @@ section.home-opening-image {
   left: 0;
   right: 0;
   height: $menu-h;
-  background-color: rgba(white, 0.1);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
