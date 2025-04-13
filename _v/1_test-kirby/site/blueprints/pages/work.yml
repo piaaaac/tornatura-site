@@ -1,0 +1,13 @@
+title: Work index
+
+tabs:
+  content:
+    columns:
+      main:
+        sections:
+          pages:
+            type: pages
+            # template: project
+            create: project
+
+  seo: seo/page

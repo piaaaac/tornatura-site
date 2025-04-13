@@ -2,19 +2,33 @@
 
 return [
 
-  'panel' =>[
-
-    'install' => true
-
+  // Data
+  "site" => [
+    "menuTitle" => "Tornatura",
   ],
 
-  'debug'  => true,
+  // Kirby Configuration
+  "debug" => true,
+  "whoops" => true,
+  // "routes" => require_once 'routes.php',
+  // "hooks" => require_once "hooks.php", // currently []
+  "assets" => [
+    "version" => "0.2",
+  ],
+  "thumbs" => [
+    "presets" => [
+      "default" => ["width" => 1024, "quality" => 80],
+    ]
+  ],
+  'tobimori.seo.canonicalBase' => "https://tornatura.it",
+  'tobimori.seo.lang' => 'it_IT',
+  'tobimori.seo.robots' => [
+    'active' => true,
+    'content' => [
+      'facebookexternalhit' =>  ['Disallow' => []],
+      'Twitterbot' =>           ['Disallow' => []],
+      'Googlebot' =>            ['Disallow' => ["/nogooglebot/"]],
+    ]
+  ],
 
- 'cache' => [
-   'page' => [
-     'active' => false
-   ]
- ]
 ];
-
-?>

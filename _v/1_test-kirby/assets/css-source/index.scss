@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+// -----------------------------------------------------------------------------
+// Variables
+// -----------------------------------------------------------------------------
+
+$menu-h: 54px;
+$space: 33px;
+
+// -----------------------------------------------------------------------------
+// External files import
+// -----------------------------------------------------------------------------
+
+@import "bootstrap-scss/_functions";
+@import "bootstrap-scss/_variables";
+@import "bootstrap-scss/mixins/_breakpoints";
+@import "_reset";
+@import "_typography";
+@import "_mixins";
+@import "_switch";
+@import "hamburger-settings";
+@import "hamburgers/hamburgers";
+
+// -----------------------------------------------------------------------------
+// Utilities
+// -----------------------------------------------------------------------------
+
+.color-white {
+  color: white;
+}
+.color-white-50 {
+  color: rgba(white, 0.5);
+}
+.bg-white {
+  background-color: white;
+}
+.h-menu-h {
+  height: $menu-h;
+}
+.no-u {
+  text-decoration: none;
+}
+.yes-u {
+  text-decoration: underline;
+}
+.u-hover {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+.upper {
+  text-transform: uppercase;
+}
+.lower {
+  text-transform: none;
+}
+.rounded {
+  border-radius: $border-radius;
+  overflow: hidden;
+}
+.uu {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10%;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.p-space {
+  padding: $space !important;
+}
+.px-space {
+  padding-left: $space !important;
+  padding-right: $space !important;
+}
+.pt-space {
+  padding-top: $space !important;
+}
+.pb-space {
+  padding-bottom: $space !important;
+}
+.py-space {
+  padding-top: $space !important;
+  padding-bottom: $space !important;
+}
+.space-1 {
+  height: #{$space * 1};
+}
+.space-2 {
+  height: #{$space * 2};
+}
+.space-3 {
+  height: #{$space * 3};
+}
+.space-4 {
+  height: #{$space * 4};
+}
+.space-6 {
+  height: #{$space * 6};
+}
+.space-8 {
+  height: #{$space * 8};
+}
+
+.fades {
+  transition: opacity 200ms;
+  &.hide {
+    opacity: 0;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Variables
+// -----------------------------------------------------------------------------
+
+// :root {
+//   --sidebar-width: 330px;
+// }
+
+// -----------------------------------------------------------------------------
+// Tags
+// -----------------------------------------------------------------------------
+
+* {
+  font-family: $font-sans;
+  @include font-s;
+  // text-rendering: auto;
+  // text-rendering: optimizeSpeed;
+  // text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision; // OK on chrome
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  background-color: black;
+  color: grey;
+  &.media-open {
+    overflow: hidden;
+  }
+}
+
+main {
+  padding-top: $menu-h;
+}
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7%;
+  color: inherit;
+  &.active {
+    text-decoration: underline;
+  }
+}
+
+p {
+  @include font-s;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  li {
+    position: relative;
+    padding: 0 0 0 22px;
+    margin-bottom: 0.5em;
+    p {
+      margin: 0;
+    }
+    &::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      top: -2px;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // margin-bottom: 1em;
+}
+h1,
+h1 a {
+  @include font-l;
+  // text-transform: uppercase;
+}
+h2 {
+  @include font-l;
+}
+h3 {
+  @include font-l;
+}
+h4 {
+  @include font-l;
+}
+h5 {
+  @include font-l;
+}
+h6 {
+  @include font-l;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+figure {
+  display: block;
+  width: 100%;
+  margin-top: $space;
+  margin-bottom: $space;
+  figcaption p,
+  figcaption {
+    @include font-s;
+    margin-top: 12px;
+  }
+  &[data-crop] {
+    &[data-ratio="1/1"] img {
+      aspect-ratio: 1/1;
+    }
+    &[data-ratio="16/9"] img {
+      aspect-ratio: 16/9;
+    }
+    &[data-ratio="10/8"] img {
+      aspect-ratio: 10/8;
+    }
+    &[data-ratio="21/9"] img {
+      aspect-ratio: 21/9;
+    }
+    &[data-ratio="7/5"] img {
+      aspect-ratio: 7/5;
+    }
+    &[data-ratio="4/3"] img {
+      aspect-ratio: 4/3;
+    }
+    &[data-ratio="5/3"] img {
+      aspect-ratio: 5/3;
+    }
+    &[data-ratio="3/2"] img {
+      aspect-ratio: 3/2;
+    }
+    &[data-ratio="3/1"] img {
+      aspect-ratio: 3/1;
+    }
+
+    img {
+      // width: 100%;
+      // height: 100%;
+      object-fit: cover; /* Ensures cropping within the container */
+      object-position: center; /* Centers the cropped content */
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// REUSABLE PIECES
+// -----------------------------------------------------------------------------
+
+.only-dsk {
+  @include media-breakpoint-down(sm) {
+    display: none !important;
+  }
+}
+.only-mob {
+  @include media-breakpoint-up(md) {
+    display: none !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// SECTIONS
+// -----------------------------------------------------------------------------
+
+section.home-opening-image {
+  aspect-ratio: 16/9;
+  background-color: rgba(gray, 0.2);
+  // max-height: 80vh;
+  // max-min-width: 100vw;
+  @include media-breakpoint-down(sm) {
+    aspect-ratio: 1/1;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// SPECIFIC
+// -----------------------------------------------------------------------------
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $menu-h;
+  background-color: rgba(white, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.6s;
+  &.transparent {
+    background-color: transparent;
+    color: white;
+  }
+}
+.menu-mobile {
+  padding: 0 $space;
+}
+
+.menu-item {
+  & + .menu-item {
+    margin-left: 12px;
+  }
+}
+
+.project-prev-image {
+  aspect-ratio: 16 / 10;
+  background-size: cover;
+}
+
+.project-opening {
+  // $project-title-h: 86px;
+  height: calc(100vh - #{$menu-h});
+  position: relative;
+  display: flex;
+  // background-color: yellow;
+  flex-flow: column nowrap;
+  .project-opening-image {
+    background-color: #f0f0f0;
+    // height: calc(100% - #{$project-title-h});
+    flex-grow: 1;
+    background-size: cover;
+  }
+  .project-opening-texts {
+    // height: $project-title-h;
+    // padding-top: 22px;
+    padding: 16px 0;
+    // flex-grow: 1;
+  }
+}
+
+// ------------------------------------------------------------------------
+// LAYOUT
+// ------------------------------------------------------------------------
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $space;
+  padding-right: $space;
+  @include media-breakpoint-down(xs) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &.no-max-width {
+    max-width: none;
+    // padding-left: $space !important;
+    // padding-right: $space !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// BOOTSTRAP BREAKPOINTS
+// -----------------------------------------------------------------------------
+
+// xs ---                 Portrait phones
+// sm ---  576px and up   Small devices (landscape phones)
+// md ---  768px and up   Medium devices (tablets)
+// lg ---  992px and up   Large devices (desktops)
+// xl --- 1200px and up   Extra large devices (large desktops)
+
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-only(md) { ... }
+// @include media-breakpoint-between(md, xl) { ... }
+// @include media-breakpoint-down(lg) { ... }

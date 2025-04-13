@@ -1,0 +1,15 @@
+label: Text
+type: writer
+inline: true
+marks:
+  - link
+nodes:
+  - heading
+  - bulletList
+  - paragraph
+toolbar:
+  marks:
+    - link
+    - "|"
+    - paragraph
+    - bulletList
