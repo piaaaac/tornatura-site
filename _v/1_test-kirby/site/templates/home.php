@@ -2,9 +2,11 @@
 
 <?php snippet("home-opening") ?>
 
-<?php snippet("home-section2") ?>
+<?php snippet("home-section-features") ?>
 
-<?php snippet("home-section3") ?>
+<?php snippet("home-section-news") ?>
+
+<?php snippet("home-section-partners") ?>
 
 <!--  
   <div class="space-4"></div>

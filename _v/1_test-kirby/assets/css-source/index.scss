@@ -4,9 +4,10 @@
 // Variables
 // -----------------------------------------------------------------------------
 
-$menu-h: 54px;
+$menu-h: 62px;
 $space: 33px;
 $yelo: #eaff00;
+$melma: #b4b76d;
 $gray: #eaeae8;
 
 // -----------------------------------------------------------------------------
@@ -37,6 +38,9 @@ $gray: #eaeae8;
 }
 .bg-gray {
   background-color: $gray;
+}
+.bg-melma {
+  background-color: $melma;
 }
 .h-menu-h {
   height: $menu-h;
@@ -305,9 +309,14 @@ section {
   display: inline-block;
   background-color: $yelo;
   border-radius: 100px;
-  padding: 0.5em 1em;
+  padding: 0.3em 1.3em;
   align-items: center;
   justify-content: center;
+  color: black;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $melma;
+  }
 }
 
 .megabutton {
@@ -346,15 +355,42 @@ section {
 // -----------------------------------------------------------------------------
 
 section.home-opening-image {
-  aspect-ratio: 16/9;
   background-color: rgba(gray, 0.2);
   background-position: center center;
   background-size: cover;
   // max-height: 80vh;
   // max-min-width: 100vw;
-  @include media-breakpoint-down(sm) {
-    aspect-ratio: 1/1;
+  aspect-ratio: 1/1;
+  @include media-breakpoint-up(md) {
+    aspect-ratio: 16/9;
   }
+  @include media-breakpoint-up(xl) {
+    aspect-ratio: auto;
+    height: 75vh;
+  }
+}
+
+.item-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .icon {
+    width: 160px;
+    margin-right: $space;
+    img {
+      max-width: 100%;
+    }
+  }
+  .text {
+  }
+}
+
+.partner-logo {
+  max-width: 60%;
+  @include media-breakpoint-up(md) {
+    // max-width: 30%;
+  }
+  margin: 100px 50px 50px 30px;
 }
 
 // -----------------------------------------------------------------------------
@@ -376,15 +412,15 @@ section.home-opening-image {
     background-color: transparent;
     color: white;
   }
+  .menu-item {
+    font-weight: 600;
+    & + .menu-item {
+      margin-left: 12px;
+    }
+  }
 }
 .menu-mobile {
   padding: 0 $space;
-}
-
-.menu-item {
-  & + .menu-item {
-    margin-left: 12px;
-  }
 }
 
 .project-prev-image {

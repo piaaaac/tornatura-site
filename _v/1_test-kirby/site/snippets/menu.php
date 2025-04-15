@@ -3,7 +3,7 @@ $title = $kirby->option("site.menuTitle");
 ?>
 
 <div class="menu transparent">
-  <div class="container-fluid">
+  <div class="container-fluid no-max-width">
     <div class="row">
       <div class="col-12 d-flex align-items-baseline justify-content-between">
         <div class="left">
@@ -13,7 +13,7 @@ $title = $kirby->option("site.menuTitle");
           <a class="menu-item" href="<?= $site->url() ?>">Index</a>
           <a class="menu-item" href="<?= "" ?>">Info</a>
           <a class="menu-item" href="<?= "" ?>">Info</a>
-          <a class="menu-item" href="<?= "" ?>">Info</a>
+          <a class="menu-item button" href="<?= "" ?>">Info</a>
         </div>
       </div>
     </div>

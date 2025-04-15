@@ -20,5 +20,8 @@ $openingImageUrl = ($openingImage) ? $openingImage->url() : "https://placehold.c
           </div>
         </div>
       </div>
+      <div class="col-12 space-4">
+      </div>
     </div>
+  </div>
 </section>
