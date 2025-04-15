@@ -6,11 +6,12 @@
 
 $menu-h: 54px;
 $space: 33px;
+$yelo: #eaff00;
+$gray: #eaeae8;
 
 // -----------------------------------------------------------------------------
 // External files import
 // -----------------------------------------------------------------------------
-
 @import "bootstrap-scss/_functions";
 @import "bootstrap-scss/_variables";
 @import "bootstrap-scss/mixins/_breakpoints";
@@ -33,6 +34,9 @@ $space: 33px;
 }
 .bg-white {
   background-color: white;
+}
+.bg-gray {
+  background-color: $gray;
 }
 .h-menu-h {
   height: $menu-h;
@@ -129,7 +133,7 @@ $space: 33px;
 
 * {
   font-family: $font-sans;
-  @include font-s;
+  @include font-sans-s;
   // text-rendering: auto;
   // text-rendering: optimizeSpeed;
   // text-rendering: optimizeLegibility;
@@ -168,7 +172,7 @@ a {
 }
 
 p {
-  @include font-s;
+  @include font-sans-s;
   margin-bottom: 1em;
 }
 
@@ -197,27 +201,28 @@ h3,
 h4,
 h5,
 h6 {
-  // margin-bottom: 1em;
+  margin-bottom: 0.6em;
+  font-weight: 600;
 }
 h1,
 h1 a {
-  @include font-l;
+  @include font-sans-l;
   // text-transform: uppercase;
 }
 h2 {
-  @include font-l;
+  @include font-sans-l;
 }
 h3 {
-  @include font-l;
+  @include font-sans-l;
 }
 h4 {
-  @include font-l;
+  @include font-sans-m;
 }
 h5 {
-  @include font-l;
+  @include font-sans-s;
 }
 h6 {
-  @include font-l;
+  @include font-mono-s;
 }
 
 img {
@@ -231,7 +236,7 @@ figure {
   margin-bottom: $space;
   figcaption p,
   figcaption {
-    @include font-s;
+    @include font-sans-s;
     margin-top: 12px;
   }
   &[data-crop] {
@@ -272,6 +277,15 @@ figure {
   }
 }
 
+section {
+  padding-top: $space;
+  padding-bottom: $space;
+  // @include media-breakpoint-down(xs) {
+  //   padding-top: 0;
+  //   padding-bottom: 0;
+  // }
+}
+
 // -----------------------------------------------------------------------------
 // REUSABLE PIECES
 // -----------------------------------------------------------------------------
@@ -284,6 +298,46 @@ figure {
 .only-mob {
   @include media-breakpoint-up(md) {
     display: none !important;
+  }
+}
+
+.button {
+  display: inline-block;
+  background-color: $yelo;
+  border-radius: 100px;
+  padding: 0.5em 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.megabutton {
+  width: 100%;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column-reverse;
+  padding: 8px 13px;
+  @include font-sans-m;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  @include media-breakpoint-up(xl) {
+    max-width: 500px;
+  }
+  &:hover {
+    background-color: $yelo;
+  }
+  &::after {
+    content: "   ";
+    align-self: flex-end;
+    background-image: url("data:image/svg+xml,%3Csvg width='23px' height='23px' viewBox='0 0 23 23' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E↗%3C/title%3E%3Cg id='Icons' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Artboard' transform='translate(-746, -82)' fill='%23000000' fill-rule='nonzero'%3E%3Cg id='↗' transform='translate(746.7273, 82.8134)'%3E%3Cpolygon id='Path' points='2.99715909 22.1732955 0 19.1761364 15.0426136 4.11931818 3.62215909 4.11931818 3.65056818 -1.42108547e-14 22.1590909 -1.42108547e-14 22.1590909 18.5227273 18.0113636 18.5227273 18.0397727 7.11647727'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
@@ -359,6 +413,12 @@ section.home-opening-image {
   }
 }
 
+footer {
+  padding: $space 0;
+  background-color: black;
+  color: white;
+}
+
 // ------------------------------------------------------------------------
 // LAYOUT
 // ------------------------------------------------------------------------
@@ -366,6 +426,7 @@ section.home-opening-image {
 .container-fluid {
   margin-left: auto;
   margin-right: auto;
+  max-width: 1200px;
   padding-left: $space;
   padding-right: $space;
   @include media-breakpoint-down(xs) {

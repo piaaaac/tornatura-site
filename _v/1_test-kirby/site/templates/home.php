@@ -6,7 +6,6 @@
 
 <?php snippet("home-section3") ?>
 
-
 <!--  
   <div class="space-4"></div>
   <div class="container-fluid">

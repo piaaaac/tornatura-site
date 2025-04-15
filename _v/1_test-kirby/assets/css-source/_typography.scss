@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:wght@100..700&display=swap");
 
 // @font-face {
 //   font-family: "Karrik";
@@ -12,9 +12,10 @@
 //   font-display: swap;
 // }
 $font-sans: "Inter", sans-serif;
+$font-mono: "Roboto Mono", monospace;
 
-@mixin font-style($xs, $sm, $md, $lg, $xl, $letter-sp, $line-h) {
-  font-family: $font-sans;
+@mixin font-style($ff, $xs, $sm, $md, $lg, $xl, $letter-sp, $line-h) {
+  font-family: $ff;
   font-size: $xs;
   font-optical-sizing: auto;
   letter-spacing: $letter-sp;
@@ -36,8 +37,9 @@ $font-sans: "Inter", sans-serif;
 
 // ---------------------------------------------------- xs --- sm --- md --- lg --- xl ---- lsp ---- lh ---- w --- style
 
-@mixin font-l {
+@mixin font-sans-l {
   @include font-style(
+    $ff: $font-sans,
     $xs: 36px,
     $sm: 36px,
     $md: 45px,
@@ -45,24 +47,58 @@ $font-sans: "Inter", sans-serif;
     $xl: 45px,
     // $xl: 2.4vw,
     $letter-sp: 0,
-    $line-h: 1em
+    $line-h: 1.05em
   );
 }
-.font-l {
-  @include font-l;
+.font-sans-l {
+  @include font-sans-l;
 }
 
-@mixin font-s {
+@mixin font-sans-m {
   @include font-style(
+    $ff: $font-sans,
+    $xs: 21px,
+    $sm: 21px,
+    $md: 24px,
+    $lg: 24px,
+    $xl: 24px,
+    // $xl: 2.4vw,
+    $letter-sp: 0,
+    $line-h: 1.15em
+  );
+}
+.font-sans-m {
+  @include font-sans-m;
+}
+
+@mixin font-sans-s {
+  @include font-style(
+    $ff: $font-sans,
     $xs: 16px,
     $sm: 16px,
     $md: 17px,
     $lg: 17px,
     $xl: 17px,
     $letter-sp: 0,
-    $line-h: 1.2em
+    $line-h: 1.25em
   );
 }
-.font-s {
-  @include font-s;
+.font-sans-s {
+  @include font-sans-s;
+}
+
+@mixin font-mono-s {
+  @include font-style(
+    $ff: $font-mono,
+    $xs: 16px,
+    $sm: 16px,
+    $md: 17px,
+    $lg: 17px,
+    $xl: 17px,
+    $letter-sp: 0,
+    $line-h: 1.25em
+  );
+}
+.font-mono-s {
+  @include font-mono-s;
 }
