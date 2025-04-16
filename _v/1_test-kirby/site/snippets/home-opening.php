@@ -16,7 +16,7 @@ $openingImageUrl = ($openingImage) ? $openingImage->url() : "https://placehold.c
         <div class="row">
           <div class="col-xl-4"><?= $page->openingText2()->kt() ?></div>
           <div class="col-xl-4 offset-xl-4 d-flex justify-content-end">
-            <a href="#" class="megabutton">Compila il form<br />e&nbsp;scarica l’App</a>
+            <a href="https://forms.office.com/e/6S3YN6rpqS" target="_blank" class="megabutton">Compila il form<br />e&nbsp;scarica l’App</a>
           </div>
         </div>
       </div>

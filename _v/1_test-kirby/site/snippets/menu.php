@@ -10,10 +10,10 @@ $title = $kirby->option("site.menuTitle");
           <a class="menu-item" href="<?= $site->url() ?>"><?= $title ?></a>
         </div>
         <div class="right">
-          <a class="menu-item" href="<?= $site->url() ?>">Index</a>
-          <a class="menu-item" href="<?= "" ?>">Info</a>
-          <a class="menu-item" href="<?= "" ?>">Info</a>
-          <a class="menu-item button" href="<?= "" ?>">Info</a>
+          <a class="menu-item" href="#il-prgetto">Il progetto</a>
+          <a class="menu-item" href="#news">News</a>
+          <a class="menu-item" href="#partners">Partners</a>
+          <a class="menu-item button d-none d-sm-inline-flex" href="https://forms.office.com/e/0LLBZymF3u" target="_blank">Richiedi informazioni</a>
         </div>
       </div>
     </div>
