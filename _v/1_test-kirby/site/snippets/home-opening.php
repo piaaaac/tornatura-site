@@ -1,9 +1,15 @@
 <?php
 $openingImage = $page->openingImage()->toFiles()->first();
 $openingImageUrl = ($openingImage) ? $openingImage->url() : "https://placehold.co/1400x800/000000/666666/png";
+
+$ass = $kirby->url("assets") . "/images";
+$openingImageUrlMob = "$ass/hp-opening-image.jpg";
+$openingImageUrlDsk = "$ass/hp-opening-image.jpg";
 ?>
 
-<section class="home-opening-image" style="background-image: url(<?= $openingImageUrl ?>);">
+<section class="home-opening-image">
+  <div class="image only-mob" style="background-image: url('<?= $openingImageUrlMob ?>');"></div>
+  <div class="image only-dsk" style="background-image: url('<?= $openingImageUrlDsk ?>');"></div>
 </section>
 
 <section>

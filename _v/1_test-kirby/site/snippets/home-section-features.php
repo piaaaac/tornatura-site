@@ -39,6 +39,7 @@ $ass = $kirby->url("assets") . "/images";
         </div>
 
       </div>
+      <div class="col-12 space-2"></div>
     </div>
   </div>
 

@@ -35,8 +35,8 @@ $ass = $kirby->url("assets") . "/images";
 
       <div class="col-xl-4 pr-5">
         <div><a target="_blank" href="https://www.unibo.it/it" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners2/partner-logo-op-unibo.png" alt="Fondo Repubblica Digitale" /></a></div>
-        <p><strong>UniBO</strong></p>
-        <p>Univetrsità di Bologna, facoltà di scienze agrarie</p>
+        <p><strong>Univetrsità di Bologna</strong></p>
+        <p>DISTAL &ndash; Dipartimento di scienze e&nbsp;tecnologie agroalimentari</p>
         <p><a target="_blank" href="https://www.unibo.it/it" class="icon-web-before color-melma">unibo.it</a></p>
       </div>
 
@@ -49,7 +49,7 @@ $ass = $kirby->url("assets") . "/images";
 
       <div class="col-xl-4 pr-5">
         <div><a target="_blank" href="https://www.isac.cnr.it/it" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners2/partner-logo-op-cnr.png " alt="Fondo Repubblica Digitale" /></a></div>
-        <p><strong>CNR</strong></p>
+        <p><strong>CNR-ISAC</strong></p>
         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur, nunc ut bibendum facilisis, nisi nunc tincidunt nunc, nec tincidunt nunc</p> -->
         <p><a target="_blank" href="https://www.isac.cnr.it/it" class="icon-web-before color-melma">isac.cnr.it</a></p>
       </div>
