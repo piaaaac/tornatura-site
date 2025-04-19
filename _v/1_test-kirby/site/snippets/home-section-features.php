@@ -8,7 +8,7 @@ $ass = $kirby->url("assets") . "/images";
     <div class="row">
 
       <div class="col-12 my-5">
-        <h6>Come funziona</h6>
+        <h5>Come funziona</h5>
         <h4>Il nostro processo è semplice e diretto. Iniziamo con una chiacchierata per capire le tue esigenze e i tuoi obiettivi. Poi, lavoriamo insieme per creare un piano personalizzato che soddisfi le tue necessità.</h4>
       </div>
 

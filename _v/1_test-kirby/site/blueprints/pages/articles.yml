@@ -1,0 +1,12 @@
+title: Articles index
+
+tabs:
+  content:
+    columns:
+      main:
+        sections:
+          pages:
+            type: pages
+            create: article
+
+  seo: seo/page

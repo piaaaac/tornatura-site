@@ -24,4 +24,4 @@
   </div>
   -->
 
-<?php snippet("footer") ?>
+<?php snippet("footer", ["menuOptions" => ["white" => true]]) ?>

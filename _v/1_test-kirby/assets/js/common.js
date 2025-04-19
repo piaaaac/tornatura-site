@@ -49,7 +49,7 @@ function adjustMainHeight() {
 // ----------------------------------------------------------------
 
 const header = document.querySelector(".menu");
-const openingImage = document.querySelector(".home-opening-image");
+const openingImage = document.querySelector("[data-role='opening-image']");
 
 const observer = new IntersectionObserver(
   ([entry]) => {

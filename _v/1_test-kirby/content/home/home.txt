@@ -2,7 +2,11 @@ Title: Home
 
 ----
 
-Openingimage: - file://svrXa1yLf1UIjymE
+Openingimagedsk: - file://8jqEAUpQyCUkJf46
+
+----
+
+Openingimagemob: - file://8jqEAUpQyCUkJf46
 
 ----
 
@@ -79,6 +83,10 @@ Robotssnippet: true
 ----
 
 Metainherit: 
+
+----
+
+Openingimage: - file://svrXa1yLf1UIjymE
 
 ----
 

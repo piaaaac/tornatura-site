@@ -1,4 +1,4 @@
-title: Default Page
+title: Homepage
 
 tabs:
   content:
@@ -11,12 +11,20 @@ tabs:
             fields:
               # •••••••••••••••••••••••••••••
               # Home Opening
-              openingImage:
-                label: Opening Image
+              openingImageDsk:
+                label: Opening Image (Desktop)
                 type: files
                 layout: cards
                 size: small
                 max: 1
+                width: 1/2
+              openingImageMob:
+                label: Opening Image (Mobile)
+                type: files
+                layout: cards
+                size: small
+                max: 1
+                width: 1/2
               openingText1:
                 label: Opening text large
                 type: textarea

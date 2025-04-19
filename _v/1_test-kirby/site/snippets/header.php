@@ -28,4 +28,4 @@
 </head>
 
 <body>
-  <main class="<?= $noPadding ? 'no-padding' : '' ?>">
+  <main class="<?= (isset($noPadding) && $noPadding) ? 'no-padding' : '' ?>">

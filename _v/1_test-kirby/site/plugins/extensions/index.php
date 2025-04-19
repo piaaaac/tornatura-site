@@ -20,21 +20,21 @@ Kirby::plugin('ap/extensions', [
   ],
 
   'pageModels' => [
-    'project' => ProjectPage::class,
+    'article' => ArticlePage::class,
   ]
 
 ]);
 
 
-class ProjectPage extends Page
+class ArticlePage extends Page
 {
   public function getAllTags()
   {
     // return ["test", "test2"];
     $pageTags = [];
-    $allProjects = site()->pages()->index()->template("project");
-    foreach ($allProjects as $project) {
-      foreach ($project->tags()->split() as $tag) {
+    $allArticles = site()->pages()->index()->template("article");
+    foreach ($allArticles as $article) {
+      foreach ($article->tags()->split() as $tag) {
         $pageTags[] = $tag;
       }
     }
