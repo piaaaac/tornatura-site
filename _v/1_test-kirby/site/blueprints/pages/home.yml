@@ -31,6 +31,7 @@ tabs:
               openingText2:
                 label: Opening text small
                 type: textarea
+                width: 1/2
               # •••••••••••••••••••••••••••••
 
               blocks:

@@ -16,9 +16,9 @@ $white = isset($white) ? $white : false;
           <a id="header-logo" class="menu-item" href="<?= $site->url() ?>" alt="<?= $title ?>"></a>
         </div>
         <div class="right">
-          <a class="menu-item" href="#il-prgetto">Il progetto</a>
-          <a class="menu-item" href="#news">News</a>
-          <a class="menu-item" href="#partners">Partners</a>
+          <a class="menu-item" href="<?= $site->url() ?>#il-prgetto">Il progetto</a>
+          <a class="menu-item" href="<?= $site->url() ?>#news">News</a>
+          <a class="menu-item" href="<?= $site->url() ?>#partners">Partners</a>
           <a class="menu-item button d-none d-md-inline-flex" href="https://forms.office.com/e/0LLBZymF3u" target="_blank">Richiedi informazioni</a>
         </div>
       </div>

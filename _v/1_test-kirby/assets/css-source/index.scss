@@ -436,13 +436,14 @@ section.home-opening-image {
   height: $menu-h;
   max-height: $menu-h;
   background-color: $melma;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: all 0.6s;
-  &.white {
-    background-color: white;
-  }
+  // &.white {
+  //   background-color: white;
+  // }
   #header-logo::before {
     content: "";
     // width: 170px;
@@ -486,17 +487,25 @@ section.home-opening-image {
 
 .article-opening {
   // $article-title-h: 86px;
-  height: calc(100vh - #{$menu-h});
+  // height: calc(100vh - #{$menu-h});
   position: relative;
-  display: flex;
+  // display: flex;
   // background-color: yellow;
-  flex-flow: column nowrap;
+  // flex-flow: column nowrap;
   .article-opening-image {
     background-color: #f0f0f0;
     // height: calc(100% - #{$article-title-h});
     flex-grow: 1;
     background-size: cover;
     position: relative;
+    aspect-ratio: 1/1;
+    @include media-breakpoint-up(md) {
+      aspect-ratio: 16/9;
+    }
+    @include media-breakpoint-up(xl) {
+      aspect-ratio: auto;
+      height: 75vh;
+    }
     &::after {
       content: "";
       position: absolute;
