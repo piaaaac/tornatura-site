@@ -53,7 +53,7 @@ const openingImage = document.querySelector("[data-role='opening-image']");
 
 const observer = new IntersectionObserver(
   ([entry]) => {
-    if (entry.intersectionRatio < 0.4) {
+    if (entry.intersectionRatio < 0.7) {
       header.classList.remove("transparent");
       console.log("sopra");
     } else {
@@ -62,7 +62,7 @@ const observer = new IntersectionObserver(
     }
   },
   {
-    threshold: [0, 0.4, 1], // 0.4 means 60% out of view
+    threshold: [0, 0.7, 1], // 0.4 means 60% out of view
   }
 );
 

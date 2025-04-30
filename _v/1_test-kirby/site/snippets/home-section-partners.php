@@ -2,10 +2,11 @@
 $ass = $kirby->url("assets") . "/images";
 ?>
 
-<section class="bg-gray">
+<section class="bg-gray pb-5">
 
   <div class="container-fluid">
     <div class="row">
+      <!--  
       <div class="col-xl-6 d-flex align-items-center">
         <h4>Partner finanziatori</h4>
       </div>
@@ -13,6 +14,18 @@ $ass = $kirby->url("assets") . "/images";
         <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners2/partner-logo-fin-frd.png" alt="Fondo Repubblica Digitale" /></a>
         <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners2/partner-logo-fin-google.png" alt="Google" /></a>
       </div>
+      -->
+
+      <div class="col-xl-4 d-flex align-items-center">
+        <h4 class="pt-5 mt-4 mt-xl-0">Partner</h4>
+      </div>
+      <div class="col-md-6 col-xl-4 d-flex align-items-center">
+        <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners2/partner-logo-fin-frd.png" alt="Fondo Repubblica Digitale" /></a>
+      </div>
+      <div class="col-md-6 col-xl-4 d-flex align-items-center">
+        <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners2/partner-logo-fin-google.png" alt="Google" /></a>
+      </div>
+
     </div>
   </div>
 </section>
@@ -22,8 +35,8 @@ $ass = $kirby->url("assets") . "/images";
     <div class="row">
 
       <div class="col-12">
-        <div class="space-3"></div>
-        <h4>Partner operativi</h4>
+        <!-- <div class="space-3"></div> -->
+        <!-- <h4>Partner operativi</h4> -->
       </div>
 
       <div class="col-md-6 col-xl-4 pr-5">
