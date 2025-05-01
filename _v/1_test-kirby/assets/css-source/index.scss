@@ -152,6 +152,7 @@ $gray: #eaeae8;
 body {
   overflow-x: hidden;
   width: 100vw;
+  max-width: 100vw;
   background-color: white;
   color: black;
   &.media-open {
@@ -160,6 +161,9 @@ body {
 }
 
 main {
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100vw;
   padding-top: $menu-h;
   &.no-padding {
     padding-top: 0;
@@ -315,6 +319,7 @@ section {
   background-color: $yelo;
   border-radius: 5px;
   padding: 0.3em 0.7em;
+  padding: 6px 12px;
   font-weight: 600;
   border: 2px solid black;
   align-items: center;
@@ -327,6 +332,17 @@ section {
     // color: white;
     background-color: $green2;
     background-color: $green1;
+  }
+
+  &[data-icon]::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -5px 3px -5px -5px;
+  }
+  &[data-icon="download"]::before {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='20px' height='20px' viewBox='0 0 20 20' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Ei-btn-download%3C/title%3E%3Cg id='i-btn-download' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpolygon id='Path' stroke='%23000000' stroke-width='0.3' fill='%23000000' fill-rule='nonzero' points='10.7329545 2.47051068 10.7329545 11.4023289 14.1363636 7.98755614 15.1704545 9.01028341 9.99431818 14.1750561 4.82954545 9.01028341 5.84090909 7.98755614 9.25568182 11.4023289 9.25568182 2.47051068'%3E%3C/polygon%3E%3Cpolygon id='Path' stroke='%23000000' stroke-width='0.3' fill='%23000000' fill-rule='nonzero' points='14.6903409 16.0863075 14.6903409 17.5294893 5.29829545 17.5294893 5.29829545 16.0863075'%3E%3C/polygon%3E%3C/g%3E%3C/svg%3E");
   }
 }
 
@@ -459,6 +475,7 @@ section.home-opening-image {
     // max-height: 80vh;
     // max-min-width: 100vw;
     aspect-ratio: 1/1;
+    aspect-ratio: 4/5;
     @include media-breakpoint-up(md) {
       aspect-ratio: 16/9;
     }
@@ -498,7 +515,7 @@ section.home-opening-image {
   @include media-breakpoint-up(md) {
     // max-width: 30%;
   }
-  margin: 100px 50px 50px 0px;
+  margin: 80px 50px 30px 0px;
 }
 
 // -----------------------------------------------------------------------------
@@ -711,14 +728,18 @@ footer {
   max-width: 1200px;
   padding-left: $space;
   padding-right: $space;
-  @include media-breakpoint-down(xs) {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  // @include media-breakpoint-down(xs) {
+  //   padding-left: 15px;
+  //   padding-right: 15px;
+  // }
   &.no-max-width {
     max-width: none;
     // padding-left: $space !important;
     // padding-right: $space !important;
+    @include media-breakpoint-down(xs) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 }
 
