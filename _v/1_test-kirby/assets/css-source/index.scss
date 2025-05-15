@@ -344,6 +344,10 @@ section {
   &[data-icon="download"]::before {
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='20px' height='20px' viewBox='0 0 20 20' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Ei-btn-download%3C/title%3E%3Cg id='i-btn-download' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpolygon id='Path' stroke='%23000000' stroke-width='0.3' fill='%23000000' fill-rule='nonzero' points='10.7329545 2.47051068 10.7329545 11.4023289 14.1363636 7.98755614 15.1704545 9.01028341 9.99431818 14.1750561 4.82954545 9.01028341 5.84090909 7.98755614 9.25568182 11.4023289 9.25568182 2.47051068'%3E%3C/polygon%3E%3Cpolygon id='Path' stroke='%23000000' stroke-width='0.3' fill='%23000000' fill-rule='nonzero' points='14.6903409 16.0863075 14.6903409 17.5294893 5.29829545 17.5294893 5.29829545 16.0863075'%3E%3C/polygon%3E%3C/g%3E%3C/svg%3E");
   }
+  &[disabled] {
+    pointer-events: none;
+    background-color: #666;
+  }
 }
 
 .megabutton-v2 {

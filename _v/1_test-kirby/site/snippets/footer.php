@@ -18,7 +18,7 @@ $menuOptions = $menuOptions ?? [];
         </a>
       </div>
       <div class="col-md-6">
-        <p>Per maggiorni informazioni contattaci <a href="mailto:eleonora.ocello@ifabfoundation.org" target="_blank">qui</a>.</p>
+        <p>Per maggiori informazioni contattaci <a href="mailto:eleonora.ocello@ifabfoundation.org" target="_blank">qui</a>.</p>
         <!-- <div><a href="https://forms.office.com/e/0LLBZymF3u" target="_blank" class="button font-bold">Richiedi informazioni</a></div> -->
         <div class="space-3"></div>
 

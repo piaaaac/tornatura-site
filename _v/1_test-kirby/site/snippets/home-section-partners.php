@@ -17,7 +17,7 @@ $ass = $kirby->url("assets") . "/images";
       -->
 
       <div class="col-xl-4 d-flex align-items-center">
-        <h4 class="pt-5 mt-4 mt-xl-0">Partners</h4>
+        <p class="pt-5 pr-4 mt-4 mt-xl-0">Un progetto selezionato e sostenuto dal&nbsp;Fondo per la Repubblica Digitale Impresa sociale</p>
       </div>
       <div class="col-sm-6 col-xl-4 d-flex align-items-center">
         <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-fin-frd.png" alt="Fondo Repubblica Digitale" /></a>
@@ -34,12 +34,10 @@ $ass = $kirby->url("assets") . "/images";
   <div class="container-fluid">
     <div class="row">
 
-      <!--  
       <div class="col-12">
         <div class="space-3"></div>
         <h4>Partners</h4>
       </div>
-      -->
 
       <div class="col-sm-6 col-xl-4 pr-5">
         <div><a target="_blank" href="https://www.ifabfoundation.org/" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-op-ifab.png " alt="Fondo Repubblica Digitale" /></a></div>

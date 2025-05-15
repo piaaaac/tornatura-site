@@ -28,8 +28,7 @@ $photographUrl = "$ass/vines.jpg";
         <div class="row">
           <div class="col-xl-4"><?= $page->openingText2()->kt() ?></div>
           <div class="col-xl-4 offset-xl-4 mt-4 d-flex justify-content-end">
-            <!-- <a href="https://forms.office.com/e/6S3YN6rpqS" target="_blank" class="megabutton-v1">Compila il form<br />e&nbsp;scarica l’App</a> -->
-            <a href="https://forms.office.com/e/6S3YN6rpqS" target="_blank" class="megabutton-v2">
+            <a href="https://forms.office.com/e/N1nr6Ft1pn" target="_blank" class="megabutton-v2">
               <span class="layer layer-main">Compila il form<br />e&nbsp;scarica l’App</span>
               <span class="layer layer-middle"></span>
               <span class="layer layer-below"></span>

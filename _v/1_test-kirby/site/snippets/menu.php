@@ -19,7 +19,7 @@ $white = isset($white) ? $white : false;
           <a class="menu-item" href="<?= $site->url() ?>#il-prgetto">Come funziona</a>
           <a class="menu-item" href="<?= $site->url() ?>#news">News</a>
           <a class="menu-item" href="<?= $site->url() ?>#partners">Partners</a>
-          <a class="menu-item button d-none d-md-inline-flex" href="https://forms.office.com/e/0LLBZymF3u" target="_blank">Richiedi informazioni</a>
+          <a class="menu-item button d-none d-md-inline-flex" href="https://forms.office.com/e/N1nr6Ft1pn" target="_blank">Richiedi informazioni</a>
         </div>
       </div>
     </div>
