@@ -1,0 +1,65 @@
+Title: Il primo evento di Tornatura: l’intelligenza artificiale per l’analisi del rischio fitosanitario
+
+----
+
+Coverimg: 
+
+----
+
+Tags: 
+
+----
+
+Date: 2025-05-21
+
+----
+
+Blocks: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: Lg9O3wEECfVoKEPe
