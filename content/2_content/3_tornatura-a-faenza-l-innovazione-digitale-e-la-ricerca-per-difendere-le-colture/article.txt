@@ -1,0 +1,85 @@
+Title: Tornatura a Faenza: l’innovazione digitale e la ricerca per difendere le colture
+
+----
+
+Coverimg: - file://0q7DVEsziip5NalQ
+
+----
+
+Tags: Evento
+
+----
+
+Date: 2025-05-21
+
+----
+
+Blocks: [{"content":{"text":"<p>Il futuro dell’agricoltura si fa sempre più digitale e sostenibile, come dimostra il progetto Tornatura. Dopo il lancio a Bologna<strong>, Tornatura è tornato a incontrare agricoltori, agronomi ed esperti del settore il 20 marzo 2025 a Faenza, presso Agrintesa Cooperativa Agricola</strong>. L’evento ha rappresentato un’importante occasione per avvicinare il territorio a una soluzione basata sull’intelligenza artificiale capace di quantificare, prevedere e ridurre l’impatto di parassiti e malattie delle piante, anche alla luce delle sfide poste dal cambiamento climatico.</p><p>La Dott.ssa Eleonora Ocello della Fondazione IFAB ha illustrato gli obiettivi di Tornatura e le opportunità che la tecnologia digitale può offrire per migliorare la prevenzione e la gestione dei rischi fitosanitari. A seguire, il Dott. Ugo Palara, Direttore Tecnico di Agrintesa, ha spiegato come parassiti e malattie impattino pesantemente sulle filiere frutta e vino, evidenziando la necessità di strumenti efficaci e innovativi.</p><p>Il cuore tecnico dell’incontro è stato rappresentato dagli interventi dei Professori Antonio Masetti e Assunta Bertaccini, del Dipartimento di Scienze e Tecnologie Agroalimentari dell’Università di Bologna e Fondazione IFAB. Entrambi hanno approfondito le <strong>criticità legate alla gestione di problematiche complesse come la flavescenza dorata e la cimice asiatica</strong>, mostrando come Tornatura possa offrire nuovi strumenti e un supporto innovativo alle aziende agricole. L’evento si è concluso con la presentazione dei prossimi passi per chi desidera partecipare attivamente allo sviluppo della soluzione digitale.</p><p>Il progetto Tornatura si conferma così come una sfida ambiziosa e un’opportunità concreta per trasformare l’agricoltura italiana, rendendola più smart, resiliente e pronta a fronteggiare le emergenze fitosanitarie in un contesto climatico in continua evoluzione.</p>"},"id":"5a27c961-2fae-4208-af8e-8ac9c6f57619","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://0q7DVEsziip5NalQ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"9441fb85-9219-4415-b931-1649281a1b11","isHidden":false,"type":"image"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: lWE3dhNBsy6tZQV7

@@ -17,7 +17,7 @@ $ass = $kirby->url("assets") . "/images";
       -->
 
       <div class="col-xl-4 d-flex align-items-center">
-        <p class="pt-5 pr-4 mt-4 mt-xl-0">Un progetto selezionato e sostenuto dal&nbsp;Fondo per la Repubblica Digitale Impresa sociale</p>
+        <p class="pt-5 pr-4 mt-4 mt-xl-0 font-sans-s">Un progetto selezionato e sostenuto dal&nbsp;Fondo per la Repubblica Digitale Impresa sociale</p>
       </div>
       <div class="col-sm-6 col-xl-4 d-flex align-items-center">
         <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-fin-frd.png" alt="Fondo Repubblica Digitale" /></a>
@@ -41,30 +41,30 @@ $ass = $kirby->url("assets") . "/images";
 
       <div class="col-sm-6 col-xl-4 pr-5">
         <div><a target="_blank" href="https://www.ifabfoundation.org/" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-op-ifab.png " alt="Fondo Repubblica Digitale" /></a></div>
-        <p><strong>IFAB</strong></p>
-        <p>International Foundation Big Data and Artificial Intelligence for&nbsp;Human Development</p>
-        <p><a target="_blank" href="https://www.ifabfoundation.org/" class="icon-web-before color-melma">ifabfoundation.org</a></p>
+        <p class="font-sans-s"><strong>IFAB</strong></p>
+        <p class="font-sans-s">International Foundation Big Data and Artificial Intelligence for&nbsp;Human Development</p>
+        <p class="font-sans-s"><a target="_blank" href="https://www.ifabfoundation.org/" class="icon-web-before color-melma">ifabfoundation.org</a></p>
       </div>
 
       <div class="col-sm-6 col-xl-4 pr-5">
         <div><a target="_blank" href="https://www.unibo.it/it" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-op-unibo.png" alt="Fondo Repubblica Digitale" /></a></div>
-        <p><strong>Università di Bologna</strong></p>
-        <p>DISTAL &ndash; Dipartimento di scienze e&nbsp;tecnologie agroalimentari</p>
-        <p><a target="_blank" href="https://www.unibo.it/it" class="icon-web-before color-melma">unibo.it</a></p>
+        <p class="font-sans-s"><strong>Università di Bologna</strong></p>
+        <p class="font-sans-s">DISTAL &ndash; Dipartimento di scienze e&nbsp;tecnologie agroalimentari</p>
+        <p class="font-sans-s"><a target="_blank" href="https://www.unibo.it/it" class="icon-web-before color-melma">unibo.it</a></p>
       </div>
 
       <div class="col-sm-6 col-xl-4 pr-5">
         <div><a target="_blank" href="https://www.legacoop.bologna.it/" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-op-legacoop.png " alt="Fondo Repubblica Digitale" /></a></div>
-        <p><strong>Legacoop Bologna</strong></p>
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur, nunc ut bibendum facilisis, nisi nunc tincidunt nunc, nec tincidunt nunc</p> -->
-        <p><a target="_blank" href="https://www.legacoop.bologna.it/" class="icon-web-before color-melma">legacoop.bologna.it</a></p>
+        <p class="font-sans-s"><strong>Legacoop Bologna</strong></p>
+        <!-- <p class="font-sans-s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur, nunc ut bibendum facilisis, nisi nunc tincidunt nunc, nec tincidunt nunc</p> -->
+        <p class="font-sans-s"><a target="_blank" href="https://www.legacoop.bologna.it/" class="icon-web-before color-melma">legacoop.bologna.it</a></p>
       </div>
 
       <div class="col-sm-6 col-xl-4 pr-5">
         <div><a target="_blank" href="https://www.isac.cnr.it/it" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-op-cnr.png " alt="Fondo Repubblica Digitale" /></a></div>
-        <p><strong>CNR-ISAC</strong></p>
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur, nunc ut bibendum facilisis, nisi nunc tincidunt nunc, nec tincidunt nunc</p> -->
-        <p><a target="_blank" href="https://www.isac.cnr.it/it" class="icon-web-before color-melma">isac.cnr.it</a></p>
+        <p class="font-sans-s"><strong>CNR-ISAC</strong></p>
+        <!-- <p class="font-sans-s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur, nunc ut bibendum facilisis, nisi nunc tincidunt nunc, nec tincidunt nunc</p> -->
+        <p class="font-sans-s"><a target="_blank" href="https://www.isac.cnr.it/it" class="icon-web-before color-melma">isac.cnr.it</a></p>
       </div>
 
       <div class="col-sm-6 col-xl-4 pr-5">

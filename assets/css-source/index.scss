@@ -185,8 +185,12 @@ a {
 }
 
 p {
-  @include font-sans-s;
+  @include font-sans-m;
   margin-bottom: 1em;
+  strong {
+    font-weight: 600;
+    @include font-sans-m;
+  }
 }
 
 ul {

@@ -1,8 +1,8 @@
 label: Text
 type: writer
-inline: true
 marks:
   - link
+  - bold
 nodes:
   - heading
   - bulletList
@@ -10,6 +10,7 @@ nodes:
 toolbar:
   marks:
     - link
+    - bold
     - "|"
     - paragraph
     - bulletList

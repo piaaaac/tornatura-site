@@ -34,7 +34,7 @@ if ($page->coverImg()->isNotEmpty()) {
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+    <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2">
       <div class="space-4"></div>
       <div class="kt py-space">
         <!-- <?= $page->text()->kti() ?> -->
@@ -46,7 +46,7 @@ if ($page->coverImg()->isNotEmpty()) {
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+    <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2">
       <div class="space-1"></div>
       <p class="font-mono-xs font-bold">Pubblicato il <?= $page->date()->toDate('d.m.Y') ?></p>
       <div class="space-4"></div>
