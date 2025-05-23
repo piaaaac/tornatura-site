@@ -19,7 +19,7 @@ tabs:
                 type: tags
                 options:
                   type: query
-                  query: page.getAllTags
+                  query: site.getAllTags
                 max: 1
                 width: 1/2
               date:

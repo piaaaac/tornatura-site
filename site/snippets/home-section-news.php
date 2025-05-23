@@ -1,5 +1,5 @@
 <?php
-$articles = page("content")->children()->listed();
+$articles = page("news")->children()->listed();
 ?>
 
 <section class="bg-melma">

@@ -2,11 +2,11 @@
 
 return [
 
-  // [
-  //   'pattern' => '/util-sandbox',
-  //   'action'  => function () {
-  //     snippet("util-sandbox");
-  //   }
-  // ],
+  [
+    'pattern' => 'sandbox',
+    'action'  => function () {
+      snippet("sandbox");
+    }
+  ],
 
 ];

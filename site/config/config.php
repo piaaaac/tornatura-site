@@ -10,7 +10,7 @@ return [
   // Kirby Configuration
   "debug" => true,
   "whoops" => true,
-  // "routes" => require_once 'routes.php',
+  "routes" => require_once 'routes.php',
   // "hooks" => require_once "hooks.php", // currently []
   "assets" => [
     "version" => "0.1.16",
