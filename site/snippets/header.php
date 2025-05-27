@@ -23,6 +23,7 @@
     window.currentTemplate = '<?= $page->template() ?>';
   </script>
 
+  <?php snippet("gdpr-banner") ?>
   <?php snippet("ga") ?>
 
 </head>

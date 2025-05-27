@@ -6,8 +6,9 @@
 ?>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKZLEWFGS7"></script>
-<script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKZLEWFGS7"
+    type="text/plain" data-cookie-consent="tracking"></script>
+<script type="text/plain" data-cookie-consent="tracking">
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
