@@ -14,7 +14,7 @@ Openingtext1: Tornatura mira a sviluppare una soluzione d’intelligenza artific
 
 ----
 
-Openingtext2: Peronospera, diabrotica, cimice asiatica e flavescenza dorata minacciano il raccolto: Tornatura fornirà una soluzione su misura per il tuo campo. Partecipa alla sperimentazione per contribuire alla rivoluzione digitale dell’agricoltura.
+Openingtext2: Peronospora, diabrotica, cimice asiatica e flavescenza dorata minacciano il raccolto: Tornatura fornirà una soluzione su misura per il tuo campo. Partecipa alla sperimentazione per contribuire alla rivoluzione digitale dell’agricoltura.
 
 ----
 

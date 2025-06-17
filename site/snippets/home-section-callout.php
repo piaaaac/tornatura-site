@@ -23,7 +23,7 @@ $bookletImgUrl = "$ass/booklet.png";
           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed turpis sed ipsum vehicula bibendum imperdiet in orci. In vel vestibulum nisi.</p> -->
           <p>
             <!-- <a class="button" data-icon="download" href="" target="_blank">Scarica il documento</a> -->
-            <a class="button" disabled href="" target="_blank">Coming soon</a>
+            <a class="button font-sans-s" disabled href="" target="_blank">Coming soon</a>
           </p>
         </div>
       </div>

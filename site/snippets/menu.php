@@ -1,14 +1,14 @@
 <?php
 $title = $kirby->option("site.menuTitle");
 
-$white = isset($white) ? $white : false;
+$classNames = isset($classes) ? implode(" ", $classes) : "";
 
 // $ass = $kirby->url("assets") . "/images";
 // $logoWhiteUrl = "$ass/logo-color-white.svg";
 // $logoBlackUrl = "$ass/logo-color-black.svg";
 ?>
 
-<div class="menu transparent <?= $white ? "white" : "" ?>">
+<div class="menu transparent <?= $classNames ?>">
   <div class="container-fluid no-max-width">
     <div class="row">
       <div class="col-12 d-flex align-items-center justify-content-between">
