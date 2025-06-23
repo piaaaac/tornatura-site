@@ -227,10 +227,28 @@ h1 a {
   // text-transform: uppercase;
 }
 h2 {
-  @include font-sans-l;
+  @include font-style(
+    $ff: $font-sans,
+    $xs: 2rem,
+    $sm: 2rem,
+    $md: 2.2rem,
+    $lg: 2.2rem,
+    $xl: 2.2rem,
+    $letter-sp: 0,
+    $line-h: 1.05em
+  );
 }
 h3 {
-  @include font-sans-l;
+  @include font-style(
+    $ff: $font-sans,
+    $xs: 1.5rem,
+    $sm: 1.5rem,
+    $md: 1.8rem,
+    $lg: 1.8rem,
+    $xl: 1.8rem,
+    $letter-sp: 0,
+    $line-h: 1.05em
+  );
 }
 h4 {
   @include font-sans-m;
