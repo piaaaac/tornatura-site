@@ -10,15 +10,15 @@ Openingimagemob: - file://jUV9KMYS9wpAvNiZ
 
 ----
 
-Openingtext1: Tornatura mira a sviluppare una soluzione d’intelligenza artificiale che faciliti il lavoro di agricoltori e tecnici agronomi alle prese con malattie e avversità delle piante.
+Openingtext1: Tornatura è la soluzione gratuita che utilizza l'IA per prevedere i rischi fitosanitari e ottimizzare i trattamenti agricoli. Più produzione, meno sprechi, ambiente protetto.
 
 ----
 
-Openingtext2: Peronospora, diabrotica, cimice asiatica e flavescenza dorata minacciano il raccolto: Tornatura fornirà una soluzione su misura per il tuo campo. Partecipa alla sperimentazione per contribuire alla rivoluzione digitale dell’agricoltura.
+Openingtext2: L'agricoltura moderna affronta sfide sempre più complesse: condizioni meteorologiche imprevedibili, nuovi patogeni e la necessità di ottimizzare le risorse. Tornatura ti aiuta a trasformare queste sfide in opportunità.
 
 ----
 
-Blocks: 
+Blocks: [{"content":{"text":"<h3>Le malattie che monitoriamo</h3><ul><li><p><strong>Flavescenza dorata</strong> - malattia da quarantena della vite&nbsp;</p></li><li><p><strong>Peronospora</strong> - patogeno che colpisce vite e altre colture&nbsp;</p></li><li><p><strong>Cimice asiatica</strong> - insetto dannoso per frutteti (pere, pesche, kiwi)&nbsp;</p></li><li><p><strong>Diabrotica</strong> - parassita chiave delle coltivazioni di mais&nbsp;</p></li></ul><p>&nbsp;</p>"},"id":"8ebafa18-8f3d-426e-951a-48030741eca1","isHidden":false,"type":"text"},{"content":{"text":"<h3>Come funziona Tornatura</h3><p>Tornatura analizza in tempo reale dati meteorologici, satellitari e climatici per creare <strong>mappe di rischio precise</strong> che ti dicono quando, dove e come intervenire. Il risultato? Fino al 35% in meno di trattamenti, fino al 20% in più di produzione, 30% di risparmio energetico per un'agricoltura davvero più sostenibile e redditizia.</p>"},"id":"81e2edd8-2d04-499c-a05e-afd0ba7a1b0f","isHidden":false,"type":"text"}]
 
 ----
 

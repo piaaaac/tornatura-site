@@ -204,10 +204,12 @@ ul {
       margin: 0;
     }
     &::before {
-      content: "→";
+      content: "›";
+      content: "•";
       position: absolute;
       left: 0;
-      top: -2px;
+      top: 2px;
+      font-weight: 700;
     }
   }
 }
