@@ -572,6 +572,12 @@ section.home-opening-image {
       // background-image: url("../images/logo-white-white.svg");
     }
   }
+  &.hide-up {
+    transform: translateY(-100%);
+  }
+  &.unhide-up {
+    transform: translateY(0) !important;
+  }
   &.white {
     background-color: white;
   }

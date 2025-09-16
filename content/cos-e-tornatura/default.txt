@@ -2,6 +2,18 @@ Title: Cos'è Tornatura
 
 ----
 
+Openingtitle: 
+
+----
+
+Openingsubtitle: Tornatura è la soluzione gratuita che utilizza l'IA per prevedere i rischi fitosanitari e ottimizzare i trattamenti agricoli. Più produzione, meno sprechi, ambiente protetto.
+
+----
+
+Openingimage: - file://GTgpFP6C7IlJnFDi
+
+----
+
 Blocks: [{"content":{"text":"<h3>L'Intelligenza Artificiale per un'agricoltura più sostenibile e produttiva&nbsp;</h3><h4>Tornatura è la soluzione gratuita che utilizza l'IA per prevedere i rischi fitosanitari e ottimizzare i trattamenti agricoli. Più produzione, meno sprechi, ambiente protetto.&nbsp;</h4><p>L'agricoltura moderna affronta sfide sempre più complesse: condizioni meteorologiche imprevedibili, nuovi patogeni e la necessità di ottimizzare le risorse. Tornatura ti aiuta a trasformare queste sfide in opportunità.&nbsp;</p>"},"id":"df5c7c23-d742-42e6-97f5-2c8a2f7e4026","isHidden":false,"type":"text"},{"content":{"text":"<h3>Le malattie che monitoriamo</h3><ul><li><p><strong>Flavescenza dorata</strong> - malattia da quarantena della vite&nbsp;</p></li><li><p><strong>Peronospora</strong> - patogeno che colpisce vite e altre colture&nbsp;</p></li><li><p><strong>Cimice asiatica</strong> - insetto dannoso per frutteti (pere, pesche, kiwi)&nbsp;</p></li><li><p><strong>Diabrotica</strong> - parassita chiave delle coltivazioni di mais&nbsp;</p></li></ul><p>&nbsp;</p>"},"id":"f8dcd34d-ffc8-4859-90e4-e0667fc12a80","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://GTgpFP6C7IlJnFDi"],"src":"","alt":"","caption":"Un campo di Chardonnay. Crediti immagine: Tim Mossholder","link":"","ratio":"","crop":"false"},"id":"a85a1bdc-e5e0-44cb-afcc-816d6595ecc3","isHidden":false,"type":"image"},{"content":{"text":"<h3>Come funziona Tornatura</h3><p>Tornatura analizza in tempo reale dati meteorologici, satellitari e climatici per creare <strong>mappe di rischio precise</strong> che ti dicono quando, dove e come intervenire. Il risultato? Fino al 35% in meno di trattamenti, fino al 20% in più di produzione, 30% di risparmio energetico per un'agricoltura davvero più sostenibile e redditizia.</p>"},"id":"0e8f4e2f-a52c-4050-9f68-79f164541a80","isHidden":false,"type":"text"}]
 
 ----

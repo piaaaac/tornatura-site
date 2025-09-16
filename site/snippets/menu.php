@@ -25,3 +25,29 @@ $classNames = isset($classes) ? implode(" ", $classes) : "";
     </div>
   </div>
 </div>
+
+<script>
+  // on scroll add a class to the menu
+  document.addEventListener("scroll", function() {
+    const menu = document.querySelector(".menu");
+    const passed50px = window.scrollY > 50;
+    const passed150px = window.scrollY > 150;
+    menu.classList.toggle("hide-up", passed50px);
+    menu.classList.toggle("transparent", !passed150px);
+  });
+
+  // on vertical scroll, toggle the unhide-up class accordingly
+  let lastScrollTop = 0;
+  window.addEventListener("scroll", function() {
+    const menu = document.querySelector(".menu");
+    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+    if (scrollTop > lastScrollTop) {
+      // downscroll
+      menu.classList.remove("unhide-up");
+    } else {
+      // upscroll
+      menu.classList.add("unhide-up");
+    }
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+  }, false);
+</script>

@@ -9,9 +9,20 @@ tabs:
           fields:
             type: fields
             fields:
-              # text:
-              #   extends: fields/writer-field
-              #   label: Text
+              # Opening ----------------------------
+              openingTitle:
+                type: text
+                label: Opening title
+                placeholder: "{{ page.title }}"
+              openingSubtitle:
+                type: textarea
+                label: Opening subtitle
+              openingImage:
+                type: files
+                max: 1
+                label: Opening background Image
+              # Opening ----------------------------
+
               blocks:
                 type: blocks
                 fieldsets:
