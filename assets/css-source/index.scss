@@ -11,7 +11,8 @@ $melma: #b4b76d;
 $green1: #6aa560;
 $green2: #3d5d38;
 $gray: #eaeae8;
-
+$grid-wide-max-width: 1400px;
+$grid-max-width: 1100px;
 // -----------------------------------------------------------------------------
 // External files import
 // -----------------------------------------------------------------------------
@@ -181,6 +182,14 @@ a {
   color: inherit;
   &.active {
     text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3 {
+  strong {
+    font-weight: 800 !important;
   }
 }
 
@@ -488,6 +497,144 @@ section {
   $color: "000000";
   $color: "b4b76d";
   background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='21px' height='21px' viewBox='0 0 21 21' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ECombined Shape%3C/title%3E%3Cg id='Icons' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Artboard' transform='translate(-842, -88)' fill='%23#{$color}' fill-rule='nonzero'%3E%3Cpath d='M852.981787,88.5182131 C858.504634,88.5182131 862.981787,92.9953656 862.981787,98.5182131 C862.981787,104.041061 858.504634,108.518213 852.981787,108.518213 C847.458939,108.518213 842.981787,104.041061 842.981787,98.5182131 C842.981787,92.9953656 847.458939,88.5182131 852.981787,88.5182131 Z M854.986665,102.599809 L850.976908,102.599809 C851.423716,104.097647 852.112014,105.409362 852.98162,106.40856 C853.85156,105.409362 854.539858,104.097647 854.986665,102.599809 Z M850.290022,106.05408 L850.200469,105.897462 C849.646276,104.906349 849.207895,103.793182 848.902257,102.600029 L846.100033,102.600046 C847.044628,104.189157 848.523996,105.423206 850.290022,106.05408 Z M859.863541,102.600046 L857.061317,102.600029 C856.739416,103.85667 856.27027,105.024586 855.673657,106.054631 C857.439578,105.423206 858.918946,104.189157 859.863541,102.600046 Z M860.751315,96.6039651 L857.458015,96.6038675 C857.529178,97.2302322 857.565769,97.8700208 857.565769,98.5182131 C857.565769,99.2242843 857.522351,99.9203859 857.438126,100.60003 L860.70835,100.599575 C860.886682,99.9359193 860.981787,99.2381727 860.981787,98.5182131 C860.981787,97.8584284 860.901916,97.2172985 860.751315,96.6039651 Z M844.981787,98.5182131 C844.981787,99.2381727 845.076892,99.9359193 845.255223,100.599575 L848.525447,100.60003 C848.441222,99.9203859 848.397805,99.2242843 848.397805,98.5182131 C848.397805,97.8700208 848.434396,97.2302322 848.505558,96.6038675 L845.212259,96.6039651 C845.061658,97.2172985 844.981787,97.8584284 844.981787,98.5182131 Z M855.443333,96.6035181 L850.520241,96.6035181 C850.439708,97.225643 850.397805,97.8661667 850.397805,98.5182131 C850.397805,99.2286743 850.447552,99.9254591 850.542813,100.599675 L855.42076,100.599675 C855.516021,99.9254591 855.565769,99.2286743 855.565769,98.5182131 C855.565769,97.8661667 855.523866,97.225643 855.443333,96.6035181 Z M855.672548,90.9819882 L855.762659,91.1382914 C856.342858,92.1756687 856.796156,93.3468376 857.103129,94.6035294 L859.96009,94.6033617 C859.021269,92.9334802 857.500405,91.6346732 855.672548,90.9819882 Z M850.290072,90.9816597 L850.14121,91.0371883 C848.380116,91.706253 846.916536,92.9793157 846.003483,94.6033617 L848.860445,94.6035294 C849.18297,93.2831706 849.667022,92.0572197 850.290072,90.9816597 Z M852.982357,90.6286052 L852.974106,90.6367868 C852.076059,91.6716106 851.372008,93.0402588 850.928503,94.6029705 L855.03507,94.6029705 C854.590396,93.0361368 853.883799,91.6643919 852.982357,90.6286052 Z' id='Combined-Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+// -----------------------------------------------------------------------------
+// BLOCKS
+// -----------------------------------------------------------------------------
+
+.blocks {
+  // --- Kirby standard blocks
+
+  // h1 {
+  //   text-align: center;
+  // }
+
+  .block {
+    // --- colors of writer content
+
+    .kt.writer {
+      hr {
+        margin: $space 0;
+      }
+    }
+
+    // --- Block options :: Spacing
+
+    &[data-paddingbottom="none"] {
+      padding-bottom: 0px;
+    }
+    &[data-paddingbottom="one"] {
+      padding-bottom: 25px;
+    }
+    &[data-paddingbottom="two"] {
+      padding-bottom: 50px;
+    }
+    &[data-paddingbottom="three"] {
+      padding-bottom: 75px;
+    }
+    &[data-paddingbottom="four"] {
+      padding-bottom: 100px;
+    }
+
+    &[data-paddingtop="none"] {
+      padding-top: 0px;
+    }
+    &[data-paddingtop="one"] {
+      padding-top: 25px;
+    }
+    &[data-paddingtop="two"] {
+      padding-top: 50px;
+    }
+    &[data-paddingtop="three"] {
+      padding-top: 75px;
+    }
+    &[data-paddingtop="four"] {
+      padding-top: 100px;
+    }
+
+    // --- Block options :: Background
+
+    &[data-bgcolor="grey"] {
+      background-color: $gray;
+    }
+    &[data-bgcolor="white"] {
+      background-color: white;
+    }
+    &[data-bgcolor="black"] {
+      background-color: black;
+    }
+
+    // --- Block options :: Borders
+
+    &[data-bordertop="yes"] {
+      border-top: 1px solid rgba(black, 0.1);
+    }
+    &[data-borderbottom="yes"] {
+      border-bottom: 1px solid rgba(black, 0.1);
+    }
+
+    &[data-gridstyle="wide"] {
+      width: 100%;
+      padding: 0 $space;
+      max-width: $grid-wide-max-width;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &[data-gridstyle="textWidth"] {
+      padding-left: 60px;
+      padding-right: 60px;
+      @include media-breakpoint-down(sm) {
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+      @include media-breakpoint-down(xs) {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      width: 100%;
+      max-width: $grid-max-width;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    // -------------------------------------
+    // Block types
+    // -------------------------------------
+
+    &.block-image {
+      &[data-ratio="1/1"] img {
+        aspect-ratio: 1/1;
+      }
+      &[data-ratio="16/9"] img {
+        aspect-ratio: 16/9;
+      }
+      &[data-ratio="10/8"] img {
+        aspect-ratio: 10/8;
+      }
+      &[data-ratio="21/9"] img {
+        aspect-ratio: 21/9;
+      }
+      &[data-ratio="7/5"] img {
+        aspect-ratio: 7/5;
+      }
+      &[data-ratio="4/3"] img {
+        aspect-ratio: 4/3;
+      }
+      &[data-ratio="5/3"] img {
+        aspect-ratio: 5/3;
+      }
+      &[data-ratio="3/2"] img {
+        aspect-ratio: 3/2;
+      }
+      &[data-ratio="3/1"] img {
+        aspect-ratio: 3/1;
+      }
+      &[data-crop] img {
+        object-fit: cover;
+      }
+    }
+  }
 }
 
 // -----------------------------------------------------------------------------
