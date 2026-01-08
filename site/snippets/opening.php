@@ -11,7 +11,7 @@ $imageCss = $image ? "url('$imageUrl')" : "none";
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2 text-white">
         <div class="space-8"></div>
-        <h1 class="opening-title"><?= $title ?></h1>
+        <h1 class="opening-title"><strong><?= $title ?></strong></h1>
         <?php if ($subtitle): ?>
           <h2 class="opening-subtitle"><?= $subtitle ?></h2>
         <?php endif ?>
