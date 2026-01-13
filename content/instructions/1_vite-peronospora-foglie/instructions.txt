@@ -1,0 +1,73 @@
+Title: Rilevamento di peronospora su foglia di vite
+
+----
+
+Blocks: [{"content":{"text":"<h2><strong>1. Scelta delle piante da osservare</strong></h2><ul><li><p>Si consiglia di segnare le piante in modo da ritornare lorem ipsum</p></li></ul>"},"id":"3e85b2c5-0c0d-4f67-b48a-73bf08cea7ef","isHidden":false,"type":"text"},{"content":{"image":["file://yc6tG33lAgQ8or3A"],"breakpoint":"none","imagesmall":[],"gridstyle":"textWidth","ratio":"","crop":"false","alt":"","caption":"","link":""},"id":"4698b326-768e-4f1f-8b64-771b4eb4acbc","isHidden":false,"type":"image"},{"content":{"text":"<ul><li><p>Consectetur adipiscing elit. Praesent id leo ut orci cursus</p></li><li><p>Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa.</p></li></ul>"},"id":"4560a6a4-07ae-461d-bfca-3f320e9fbf62","isHidden":false,"type":"text"},{"content":{"text":"<h2><strong>2. Valutazione della gravità dei sintomi</strong></h2><p>Vitae purus maximus tincidunt. Duis pretium aliquet bibendum. Mauris nunc enim, tristique sit amet placerat.</p><p>&nbsp;</p><p><strong>●○○&nbsp; Lieve</strong></p><p>Presenza di alcune macchie isolate</p>"},"id":"abe3530f-3400-4bbd-89af-1f8d9ed98490","isHidden":false,"type":"text"},{"content":{"image":["file://elUjL28JgJNmn9bG"],"breakpoint":"none","imagesmall":[],"gridstyle":"wide","ratio":"","crop":"false","alt":"","caption":"","link":""},"id":"f3a3afcf-0f52-484e-973a-79070e09919a","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>●●○&nbsp; Consistente</strong></p><p>Presenza di aliquam pharetra ac nisl ultricies viverra</p>"},"id":"62282207-aa91-49be-b412-e9b4f09f4786","isHidden":false,"type":"text"},{"content":{"image":["file://PuPW5JmqjiOMnAzQ"],"breakpoint":"none","imagesmall":[],"gridstyle":"wide","ratio":"","crop":"false","alt":"","caption":"","link":""},"id":"202b79e4-aa35-4f14-9ca0-725296577c6b","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>●●●&nbsp; Grave</strong></p><p>Vestibulum elementum in magna eu posuere</p>"},"id":"2148b271-7e4e-4c47-a03d-2206680f91e0","isHidden":false,"type":"text"},{"content":{"image":["file://NYoJx6jJybO5LjsK"],"breakpoint":"none","imagesmall":[],"gridstyle":"wide","ratio":"","crop":"false","alt":"","caption":"","link":""},"id":"435ac5b5-efb7-4df5-bdaf-e854b9164cd6","isHidden":false,"type":"image"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 59YtQPimn76U7Zcm

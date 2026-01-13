@@ -1,0 +1,14 @@
+name: Subpages
+icon: text
+wysiwyg: true
+preview: true
+fields:
+  info:
+    label: Info
+    type: info
+    text: >
+      The list of subpages will automatically appear.
+
+  textOnEmpty:
+    label: Text to show when empty
+    type: text

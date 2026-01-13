@@ -1,0 +1,85 @@
+Title: Instructions
+
+----
+
+Openingtitle: Instruction pages
+
+----
+
+Openingsubtitle: Utility pages that assist during detections in the field.
+
+----
+
+Openingimage: - file://YJdbPgNnTXx8UKq4
+
+----
+
+Blocks: [{"content":{"textonempty":"No subpages listed."},"id":"4f9ca218-8ca4-4b08-851f-92a75a95cae9","isHidden":false,"type":"subpages"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: Pr6eulN9k6v2Ytz0
