@@ -16,7 +16,7 @@ function pageContents()
 
 <?php if (get('partial')): ?>
 
-  <?php snippet("header", ["noPadding" => true]) ?>
+  <?php snippet("header", ["noPadding" => true, "embed" => true]) ?>
   <?= pageContents() ?>
   <?php snippet("footer-partial") ?>
 

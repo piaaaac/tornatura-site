@@ -2,6 +2,7 @@
 
 /**
  * @param noPadding boolean
+ * @param embed boolean
  */
 ?>
 
@@ -23,8 +24,23 @@
     window.currentTemplate = '<?= $page->template() ?>';
   </script>
 
-  <?php snippet("gdpr-banner") ?>
-  <?php snippet("ga") ?>
+  <?php if (!isset($embed) || !$embed): ?>
+    <?php snippet("gdpr-banner") ?>
+    <?php snippet("ga") ?>
+  <?php endif; ?>
+
+  <?php if (isset($embed) && $embed): ?>
+    <script>
+      new ResizeObserver(() => {
+        const height = document.documentElement.scrollHeight;
+        const msg = {
+          iframeHeight: height
+        };
+        console.log("posting message", msg);
+        parent.postMessage(msg, '*');
+      }).observe(document.documentElement);
+    </script>
+  <?php endif; ?>
 
 </head>
 
