@@ -1,5 +1,5 @@
 <?php
-$articles = page("news")->children()->listed();
+$articles = page("news")->children()->listed()->sortBy("date", "desc");
 ?>
 
 <?php snippet("header") ?>
