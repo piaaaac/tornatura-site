@@ -6,5 +6,7 @@ tabs:
       pages:
         type: pages
         # create: false
+      files:
+        type: files
 
   seo: seo/site

@@ -21,7 +21,7 @@ $classNames = isset($classes) ? implode(" ", $classes) : "";
           <a class="menu-item" href="<?= $site->url() ?>#partners">Partners</a>
 
           <!-- <a class="menu-item button d-none d-md-inline-flex" href="https://forms.office.com/e/N1nr6Ft1pn" target="_blank">Richiedi informazioni</a> -->
-          <a class="menu-item button d-none d-md-inline-flex" href="https://datastation.tornatura.it/" target="_blank">Web app &rarr;</a>
+          <a class="menu-item button d-none d-md-inline-flex" href="https://app.tornatura.it" target="_blank">Web-app &rarr;</a>
 
         </div>
       </div>
