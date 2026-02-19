@@ -13,7 +13,7 @@ return [
   "routes" => require_once 'routes.php',
   // "hooks" => require_once "hooks.php", // currently []
   "assets" => [
-    "version" => "0.1.19",
+    "version" => "0.1.20",
   ],
   "thumbs" => [
     "presets" => [
