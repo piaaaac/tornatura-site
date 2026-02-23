@@ -129,6 +129,10 @@ $grid-max-width: 1100px;
   }
 }
 
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
 // -----------------------------------------------------------------------------
 // Variables
 // -----------------------------------------------------------------------------
@@ -522,7 +526,10 @@ section {
       background-color: transparent;
     }
     .showhide {
-      max-height: 1000px;
+      max-height: 400px;
+      @include media-breakpoint-down(xs) {
+        max-height: 600px;
+      }
     }
     .arr {
       transform: rotate(-180deg);
@@ -711,7 +718,7 @@ section {
 // SECTIONS
 // -----------------------------------------------------------------------------
 
-section.home-opening-image {
+section.home-opening1-image {
   padding: 0;
   .image {
     background-color: $melma;
@@ -825,8 +832,56 @@ section.home-opening-image {
     }
   }
 }
-.menu-mobile {
-  padding: 0 $space;
+// .menu-mobile {
+//   padding: 0 $space;
+// }
+
+#overlay {
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  opacity: 0;
+  background-color: black;
+  transition: opacity 400ms;
+  @at-root body.menu-xs-open & {
+    pointer-events: auto;
+    opacity: 0.15;
+  }
+}
+#menu-xs {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: calc(100% - #{$menu-h});
+  height: 100%;
+  overflow-y: scroll;
+  background-color: grey;
+  padding: $menu-h 10px 10px 10px;
+  transition: right 400ms;
+  @at-root body.menu-xs-open & {
+    right: 0;
+  }
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+
+  a.item {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    @include font-sans-l;
+    margin-bottom: 0.4em;
+    &.small {
+      @include font-sans-m;
+    }
+  }
 }
 
 // .article-prev-image {

@@ -16,16 +16,62 @@ $classNames = isset($classes) ? implode(" ", $classes) : "";
           <a id="header-logo" class="menu-item" href="<?= $site->url() ?>" alt="<?= $title ?>"></a>
         </div>
         <div class="right">
-          <a class="menu-item" href="<?= $site->url() ?>#il-prgetto">Come funziona</a>
-          <a class="menu-item" href="<?= $site->url() ?>#news">News</a>
-          <a class="menu-item" href="<?= $site->url() ?>#partners">Partners</a>
+          <div class="d-none d-lg-flex align-items-center">
+            <a class="menu-item" href="<?= $site->url() ?>#il-prgetto">Come funziona</a>
+            <a class="menu-item" href="<?= $site->url() ?>#news">News</a>
+            <a class="menu-item" href="<?= $site->url() ?>#partners">Partners</a>
 
-          <!-- <a class="menu-item button d-none d-md-inline-flex" href="https://forms.office.com/e/N1nr6Ft1pn" target="_blank">Richiedi informazioni</a> -->
-          <a class="menu-item button d-none d-md-inline-flex" href="https://app.tornatura.it" target="_blank">Web-app &rarr;</a>
+            <?php foreach ($site->menuItems()->toStructure() as $item):
+              if ($item->active()->toBool() === false) {
+                continue;
+              }
+              $current = false;
+              if ($page->is($item->menuLink()->toPage())) {
+                $current = true;
+              }
+            ?>
+              <a class="menu-item<?= $current ? " current" : "" ?>" href="<?= $item->menuLink()->toUrl() ?>"><?= $item->menuText()->value() ?></a>
+            <?php endforeach ?>
+
+
+            <!-- <a class="menu-item button d-none d-md-inline-flex" href="https://forms.office.com/e/N1nr6Ft1pn" target="_blank">Richiedi informazioni</a> -->
+            <a class="menu-item button d-none d-md-inline-flex" href="https://app.tornatura.it" target="_blank">Web-app &rarr;</a>
+          </div>
+
+          <div id="hamburger-container d-lg-none">
+            <div class="d-lg-none mt-1">
+              <button class="hamburger hamburger--slider" type="button" onclick="toggleMenu()">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+            </div>
+          </div>
 
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="overlay" onclick="toggleMenu()"></div>
+
+<div id="menu-xs">
+  <div class="flex-grow-1 d-flex align-items-center justify-content-center flex-column">
+    <?php foreach ($site->menuItems()->toStructure() as $item):
+      if ($item->active()->toBool() === false) {
+        continue;
+      }
+      $current = false;
+      if ($page->is($item->menuLink()->toPage())) {
+        $current = true;
+      }
+    ?>
+      <a class="item<?= $current ? " current" : "" ?>" href="<?= $item->menuLink()->toUrl() ?>"><?= $item->menuText()->value() ?></a>
+    <?php endforeach ?>
+  </div>
+  <div>
+    <a class="menu-item button w-100 text-center" href="https://app.tornatura.it" target="_blank">Web-app &rarr;</a>
   </div>
 </div>
 
@@ -53,4 +99,16 @@ $classNames = isset($classes) ? implode(" ", $classes) : "";
     }
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
   }, false);
+
+  // --- Menu
+
+  function toggleMenu(newState) {
+    var isOpen = document.querySelector("body").classList.contains("menu-xs-open");
+    if (newState === true || newState === false) {
+      isOpen = !newState;
+    }
+    // state.menuXsOpen = !isOpen;
+    document.querySelector("body").classList.toggle("menu-xs-open", !isOpen);
+    document.querySelector("button.hamburger").classList.toggle("is-active", !isOpen);
+  }
 </script>

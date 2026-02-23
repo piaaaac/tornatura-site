@@ -33,6 +33,11 @@
           </div>
 
           <div class="col-xl-3 col-sm-6">
+            <!-- <label>Email*</label> -->
+            <input type="email" name="email" id="email" placeholder="Email*" required="required">
+          </div>
+
+          <div class="col-xl-3 col-sm-6">
             <!-- <label>Profilo professionale*</label> -->
             <select name="campo16" id="campo16" required="required">
               <option value="" selected="selected">Profilo professionale*</option>
@@ -40,11 +45,6 @@
               <option value="Imprenditore Agricolo">Imprenditore Agricolo</option>
               <option value="Altro">Altro</option>
             </select>
-          </div>
-
-          <div class="col-xl-3 col-sm-6">
-            <!-- <label>Email*</label> -->
-            <input type="email" name="email" id="email" placeholder="Email*" required="required">
           </div>
 
           <input type="hidden" name="group" value="1652">
@@ -71,6 +71,8 @@
           </div>
           <input type="hidden" id="apgroup" name="apgroup" value="1675">
           <input type="hidden" name="list" value="48">
+
+          <div class="spacer py-3">&nbsp;</div>
         </div>
       </div>
     </form>

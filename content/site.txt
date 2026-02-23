@@ -1,1 +1,66 @@
 Title: Tornatura
+
+----
+
+Menuitems:
+
+- 
+  menutext: "Cos'è Tornatura"
+  menulink: page://uygx7p6gNB3t59V7
+  active: 'true'
+- 
+  menutext: News
+  menulink: page://emfd4tBl6BC2tQid
+  active: 'true'
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Socialmediaaccounts: 

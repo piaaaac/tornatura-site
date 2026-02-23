@@ -13,7 +13,7 @@ $openingImageDskUrl = ($openingImageDsk) ? $openingImageDsk->url() : "https://pl
 $photographUrl = "$ass/vines.jpg";
 ?>
 
-<section class="home-opening-image" data-role="opening-image">
+<section class="home-opening2-image" data-role="opening-image">
   <div class="image only-mob" style="background-image: url('<?= $openingImageMobUrl ?>');"></div>
   <div class="image only-dsk" style="background-image: url('<?= $openingImageDskUrl ?>');"></div>
 </section>

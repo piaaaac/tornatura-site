@@ -9,4 +9,24 @@ tabs:
       files:
         type: files
 
+  menu:
+    sections:
+      meta:
+        type: fields
+        fields:
+          menuItems:
+            type: structure
+            label: Menu items
+            fields:
+              menuText:
+                type: text
+                label: Menu text
+              menuLink:
+                extends: fields/link
+                label: Menu link
+              active:
+                type: toggle
+                label: Active
+                default: true
+
   seo: seo/site
