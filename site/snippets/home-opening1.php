@@ -29,7 +29,7 @@ $photographUrl = "$ass/vines.jpg";
           <div class="col-xl-4"><?= $page->openingText2()->kt() ?></div>
           <div class="col-xl-4 offset-xl-4 mt-4 d-flex justify-content-end">
             <a href="https://app.tornatura.it" target="_blank" class="megabutton-v2">
-              <span class="layer layer-main">Accedi<br />alla web-app</span>
+              <span class="layer layer-main">Accedi<br />alla web app</span>
               <span class="layer layer-middle"></span>
               <span class="layer layer-below"></span>
             </a>

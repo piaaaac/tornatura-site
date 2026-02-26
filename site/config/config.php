@@ -2,16 +2,16 @@
 
 return [
 
-  // Data
+  // --- Data
+
   "site" => [
     "menuTitle" => "Tornatura",
   ],
 
-  // Kirby Configuration
+  // --- Kirby Configuration
   "debug" => true,
   "whoops" => true,
   "routes" => require_once 'routes.php',
-  // "hooks" => require_once "hooks.php", // currently []
   "assets" => [
     "version" => "0.1.20",
   ],

@@ -1,6 +1,6 @@
 <?php snippet("header", ["noPadding" => true]) ?>
 
-<?php snippet("home-opening1") ?>
+<?php snippet("home-opening2") ?>
 
 <div class="container-fluid">
   <div class="row">

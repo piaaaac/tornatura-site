@@ -8,7 +8,7 @@ $bookletImgUrl = "$ass/booklet.png";
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 space-3"></div>
+      <div class="col-12 space-1"></div>
     </div>
 
     <div class="row">
@@ -31,7 +31,7 @@ $bookletImgUrl = "$ass/booklet.png";
     </div>
 
     <div class="row">
-      <div class="col-12 space-3"></div>
+      <div class="col-12 space-1"></div>
     </div>
 
   </div>

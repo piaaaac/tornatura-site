@@ -21,20 +21,16 @@ $photographUrl = "$ass/vines.jpg";
 <section>
   <div class="container-fluid no-max-width">
     <div class="row">
-      <div class="col-xl-8">
-        <h2><?= $page->openingText1()->kti() ?></h2>
-      </div>
-      <div class="col-md-6 col-xl-12">
-        <div class="row">
-          <div class="col-xl-4"><?= $page->openingText2()->kt() ?></div>
-          <div class="col-xl-4 offset-xl-4 mt-4 d-flex justify-content-end">
-            <a href="https://app.tornatura.it" target="_blank" class="megabutton-v2">
-              <span class="layer layer-main">Accedi<br />alla web-app</span>
-              <span class="layer layer-middle"></span>
-              <span class="layer layer-below"></span>
-            </a>
-          </div>
+      <div class="col-xl-6 d-flex align-items-center">
+        <div px-5>
+          <h2>Cos'è Tornatura</h2>
+          <!-- <p><?= $page->openingText1()->kti() ?></p> -->
+          <p>Tornatura è una piattaforma gratuita che usa l’intelligenza artificiale per aiutare agricoltori e agronomi a prevedere i rischi fitosanitari e gestire meglio i trattamenti. Incrocia dati meteo, immagini satellitari e informazioni dal campo per trasformare la complessità in indicazioni chiare e operative.</p>
+          <p><a class="button">Scopri come funziona</a></p>
         </div>
+      </div>
+      <div class="col-xl-6 d-flex align-items-center">
+        <img src="http://tornatura-site.test/media/pages/home/e5bd0b50ca-1772099804/demo-viz.png" class="w-100 rounded" />
       </div>
       <div class="col-12 space-4"></div>
     </div>

@@ -63,9 +63,21 @@ const observer = new IntersectionObserver(
   },
   {
     threshold: [0, 0.7, 1], // 0.4 means 60% out of view
-  }
+  },
 );
 
 if (openingImage) {
   observer.observe(openingImage);
 }
+
+handleResizeStartEnd(
+  () => {
+    console.log("started");
+  },
+  () => {
+    console.log("ended");
+    if (breakpointIs("lg", "up")) {
+      toggleMenu(false);
+    }
+  },
+);
