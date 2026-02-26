@@ -1,0 +1,85 @@
+Title: FAQ
+
+----
+
+Openingtitle: FAQ — Domande frequenti
+
+----
+
+Openingsubtitle: 
+
+----
+
+Openingimage: 
+
+----
+
+Blocks: [{"content":{"text":"<h3><strong>Come posso provare l’applicazione?</strong></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ut orci cursus. Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa. Vivamus auctor mauris vitae purus maximus tincidunt. Praesent quis nisl rhoncus, convallis magna, porta augue.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ut orci cursus. Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa. Vivamus auctor mauris vitae purus maximus tincidunt.&nbsp;</p><hr><h3><strong>Lorem ipsum dolor sit amet, consectetur?</strong></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ut orci cursus. Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa. Vivamus auctor mauris vitae purus maximus tincidunt. Praesent quis nisl rhoncus, convallis magna, porta augue.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ut orci cursus. Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa. Vivamus auctor mauris vitae purus maximus tincidunt.&nbsp;</p><hr><h3><strong>Aliquam pharetra ac nisl?</strong></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ut orci cursus. Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa. Vivamus auctor mauris vitae purus maximus tincidunt. Praesent quis nisl rhoncus, convallis magna, porta augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ut orci cursus. Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa. Vivamus auctor mauris vitae purus maximus tincidunt.&nbsp;</p><hr><h3><strong>Come posso provare l’applicazione?</strong></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ut orci cursus. Nunc blandit velit in dolor ultrices, id rutrum tortor consectetur. Vivamus nec iaculis massa. Vivamus auctor mauris vitae purus maximus tincidunt.&nbsp;</p><hr><h3><strong>Lorem ipsum dolor rutrum tortor consectetur?</strong></h3><hr><h3><strong>Aliquam pharetra ac nisl?</strong></h3><hr><h3><strong>Praesent a consectetur magna vestibulum elementum?</strong></h3><hr><h3><strong>Sed in quam diam sed, eleifend velit?</strong></h3><hr><h3><strong>Vestibulum vel suscipit magna?</strong></h3><hr><h3><strong>Duis sagittis tristique laoreet?</strong></h3><hr>"},"id":"dc2f20fa-2c42-4584-b843-b815c2e539b2","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: S6fMIXEUuMewupJR

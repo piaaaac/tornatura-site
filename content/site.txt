@@ -12,6 +12,14 @@ Menuitems:
   menutext: News
   menulink: page://emfd4tBl6BC2tQid
   active: 'true'
+- 
+  menutext: Chi siamo
+  menulink: page://5vwqiQJTd0m62Fg4
+  active: 'true'
+- 
+  menutext: FAQ
+  menulink: page://S6fMIXEUuMewupJR
+  active: 'true'
 
 ----
 

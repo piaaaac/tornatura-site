@@ -1,0 +1,85 @@
+Title: Quando il clima cambia, come si adatta l’agricoltura? Tornatura entra in campo con la DEMO
+
+----
+
+Coverimg: - file://9jOx2Qh3AzCm3pCb
+
+----
+
+Tags: Evento
+
+----
+
+Date: 2026-02-03
+
+----
+
+Blocks: [{"content":{"text":"<p>Il <strong>25 febbraio 2026</strong>, a Bologna, si terrà l’evento <strong>“Quando il clima cambia: come si adatta l’agricoltura? AI, ricerca e tecnologie in campo”</strong>, un incontro dedicato alle soluzioni scientifiche e tecnologiche per affrontare l’impatto del cambiamento climatico sul settore agricolo.</p><p>L’iniziativa è organizzata dal <a href=\"https://tecnopolo.bo.cnr.it/\"><strong>Tecnopolo Bologna CNR</strong>,</a> in collaborazione con <a href=\"https://www.consorzioproambiente.it/it/\"><strong>PROAMBIENTE</strong></a>, <a href=\"https://www.isac.cnr.it/\"><strong>CNR-ISAC</strong></a>, <a href=\"https://www.ifabfoundation.org/it/\"><strong>Fondazione IFAB</strong></a> e il progetto <strong>Tornatura</strong>, con il supporto di <strong>Clust-ER Greentech</strong>, <strong>Clust-ER AgriFood</strong> e <strong>MISTER Smart Innovation</strong>.<br>Un’occasione di confronto tra ricerca, imprese e professionisti del settore agro-ambientale.</p><p>In un contesto segnato da eventi climatici estremi, nuove fitopatie e crescente incertezza produttiva, l’evento metterà al centro strumenti concreti per supportare l’adattamento dell’agricoltura: modelli climatici, intelligenza artificiale e tecnologie digitali applicate al campo.</p><h4><strong>Demo interattiva di Tornatura</strong></h4><p>Durante il pomeriggio, <strong>Tornatura</strong> sarà presente con una <strong>demo interattiva</strong> del proprio strumento di <strong>intelligenza artificiale a supporto di agricoltori e agronomi</strong>.</p><p>La presentazione mostrerà come Tornatura può aiutare nella gestione di <strong>malattie e avversità delle piante</strong>, integrando dati ambientali e agronomici per supportare decisioni più tempestive e consapevoli in un contesto climatico sempre più variabile.</p><p>L’evento si svolgerà presso la <strong>Biblioteca Dario Nobili</strong> dell’Area Territoriale di Ricerca del CNR di Bologna, a partire dalle <strong>14:30</strong>.<br>La partecipazione è <strong>gratuita</strong>, con <strong>riconoscimento di CFP</strong> per agronomi e forestali.<br><br><strong>Per partecipare è necessaria l'</strong><a href=\"https://consorzioproambiente.it/en/media-proambiente/news/456-evento-quando-il-clima-cambia-come-si-adatta-lagricoltura-ai-ricerca-e-tecnologie-in-campo\"><strong>iscrizione alla pagina</strong> </a></p>"},"id":"7cfda148-97ba-4b2a-ac97-bef026a01926","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: Quando il clima cambia: come si adatta l’agricoltura | Demo Tornatura
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: false
+
+----
+
+Metadescription: Evento a Bologna su clima e agricoltura. Tornatura presenta una demo AI per supportare agricoltori e agronomi contro malattie e avversità delle piante.
+
+----
+
+Ogtemplate: Quando il clima cambia: Tornatura porta l’AI in campo
+
+----
+
+Useogtemplate: false
+
+----
+
+Ogdescription: Il 25 febbraio a Bologna Tornatura presenta una demo interattiva di AI per aiutare agricoltori e agronomi nella gestione delle malattie delle piante.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: dZujuJ69YvROoskG

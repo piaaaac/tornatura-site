@@ -1,0 +1,85 @@
+Title: Tornatura: quali dati usa e quali decisioni restituisce
+
+----
+
+Coverimg: - file://R4rDoeERNsMTkP3Q
+
+----
+
+Tags: Agricoltura 4.0
+
+----
+
+Date: 2026-02-14
+
+----
+
+Blocks: [{"content":{"text":"<p>Nella gestione delle malattie delle colture il problema non è la mancanza di informazioni. Meteo, osservazioni in campo, immagini satellitari, segnalazioni territoriali: i dati esistono. Spesso però restano separati e difficili da interpretare in modo integrato.</p><p>Tornatura nasce per collegare queste informazioni e trasformarle in uno strumento utile per decidere quando intervenire e dove concentrare l’attenzione.</p><h2>I dati che Tornatura utilizza</h2><p>La piattaforma lavora su più livelli, combinando fonti diverse.</p><p><strong>Mappe meteo e proiezioni stagionali locali</strong><br>Le condizioni climatiche sono uno dei fattori principali nello sviluppo di patogeni come peronospora o nella dinamica di insetti come la cimice asiatica. Tornatura integra dati meteo riferiti a zone specifiche e li utilizza per valutare l’evoluzione del rischio nel tempo.</p><p><strong>Stato della pianta attraverso indici satellitari</strong><br>Le immagini satellitari permettono di analizzare lo stato vegetativo delle colture. Attraverso indici dedicati è possibile individuare anomalie o variazioni che possono indicare stress o condizioni favorevoli allo sviluppo di una malattia.</p><p><strong>Densità e presenza del patogeno sul territorio</strong><br>Le informazioni raccolte su segnalazioni e casi osservati contribuiscono a costruire una mappa della pressione reale dell’avversità. Questo è particolarmente rilevante per problematiche come la flavescenza dorata, che si diffonde su scala territoriale.</p><p><strong>Immagini satellitari e immagini dal campo</strong><br>Le immagini satellitari offrono una visione ampia e confrontabile tra appezzamenti. Le immagini caricate direttamente dal campo aggiungono un livello di dettaglio locale, utile per integrare l’analisi automatica con l’osservazione diretta.</p><p>L’elemento chiave non è la singola fonte, ma la loro integrazione. Tornatura elabora questi dati in modo coordinato per fornire una valutazione complessiva del rischio.</p><h2>I risultati che Tornatura restituisce</h2><p>Dall’elaborazione dei dati in ingresso nascono strumenti operativi.</p><p><strong>Mappa di rischio</strong><br>Una rappresentazione geografica che indica le aree con maggiore probabilità di sviluppo dell’avversità. Questo aiuta a capire dove il monitoraggio deve essere più attento.</p><p><strong>Calibrazione delle strategie di intervento</strong><br>Non si tratta di indicazioni generiche, ma di un supporto per valutare se le condizioni giustificano un intervento o se è possibile attendere ulteriori sviluppi.</p><p><strong>Mappa di priorità geografiche</strong><br>Particolarmente utile per agronomi che seguono più aziende o per cooperative che coordinano un territorio. Permette di organizzare le attività dando priorità alle zone più esposte.</p><p><strong>Strategie di sorveglianza e mitigazione</strong><br>La piattaforma supporta la pianificazione delle attività di controllo e monitoraggio, contribuendo a ridurre interventi non necessari.</p><p>Il risultato è un passaggio dai dati grezzi a una lettura sintetica e operativa del rischio.</p>"},"id":"7e65fd87-0161-42c5-badb-abd44a070f7e","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://bw3KDb6UYXBCCXpP"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1b4fadb1-45f7-4528-833d-93cead2dd291","isHidden":false,"type":"image"},{"content":{"text":"<p>Scopri come Tornatura integra i dati per supportare le tue decisioni<br><a href=\"https://www.tornatura.it/\"><strong>Accedi ora gratuitamente alla web app</strong> </a></p>"},"id":"b76ab3bd-8b3c-4822-9f47-eb170bc88c3b","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: Come funziona Tornatura: dati in input, mappe di rischio e supporto decisionale
+
+----
+
+Metatemplate: come-funziona-tornatura-dati-input-output
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Scopri quali dati utilizza Tornatura e quali output restituisce: mappe di rischio, priorità geografiche e supporto decisionale per agricoltura.
+
+----
+
+Ogtemplate: Come funziona Tornatura: dai dati di campo alle decisioni operative
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Meteo, immagini satellitari e dati territoriali integrati in un’unica piattaforma per generare mappe di rischio e strategie di intervento.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: TGtF7UCBkTSebDmr

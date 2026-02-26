@@ -1,9 +1,0 @@
-Uuid: GTgpFP6C7IlJnFDi
-
-----
-
-Template: blocks/image
-
-----
-
-Focus: 33.8% 81.9%

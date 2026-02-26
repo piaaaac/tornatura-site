@@ -1,0 +1,85 @@
+Title: prova
+
+----
+
+Coverimg: 
+
+----
+
+Tags: 
+
+----
+
+Date: 2026-02-20
+
+----
+
+Blocks: [{"content":{"text":""},"id":"370b0f27-1856-4800-b018-0abade93acbf","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: kFKViH8daCDR3g44

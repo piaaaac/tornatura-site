@@ -1,0 +1,85 @@
+Title: Cimice asiatica: perché molti trattamenti falliscono e quando intervenire davvero
+
+----
+
+Coverimg: - file://SxFBWAdbGQFV9CX3
+
+----
+
+Tags: Pillole fitosanitarie
+
+----
+
+Date: 2026-02-14
+
+----
+
+Blocks: [{"content":{"text":"<p>La cimice asiatica è una delle avversità più segnalate negli ultimi anni, in particolare su pero, pesco e altre colture frutticole. I danni economici possono essere significativi, ma nonostante l’aumento dei trattamenti i risultati spesso restano insoddisfacenti.</p><p>Il problema non è solo la presenza dell’insetto. È la difficoltà di individuare il momento corretto per intervenire.</p><h2>Danni della cimice asiatica: perché l’impatto è così elevato</h2><p>La cimice asiatica provoca:</p><ul><li><p>punture su frutti in accrescimento</p></li><li><p>deformazioni e suberificazioni</p></li><li><p>perdita di qualità commerciale</p></li><li><p>scarti elevati in fase di selezione</p></li></ul><p>Il danno non è sempre immediatamente visibile. In molti casi emerge in raccolta, quando ormai non è più possibile intervenire.<br>Per questo motivo la gestione deve essere preventiva e ben calibrata.</p><h2>Cimice asiatica: quando trattare per evitare interventi inefficaci</h2><p>Una delle ricerche più frequenti è “cimice asiatica quando trattare”. La risposta non può essere generica.</p><p>Molti trattamenti falliscono perché:</p><ul><li><p>vengono anticipati rispetto al picco di pressione</p></li><li><p>vengono ripetuti senza una reale valutazione del rischio</p></li><li><p>non tengono conto della dinamica locale della popolazione</p></li></ul><p>Le finestre operative sono sempre più strette e la variabilità tra zone è elevata. Una strategia efficace richiede una lettura continua del rischio, non un calendario fisso.</p><h2>Le difficoltà emerse dal questionario: programmazione incerta e decisioni complesse</h2><p>Dalle risposte raccolte emerge una criticità chiara: programmare le attività stagionali è diventato più difficile.</p><p>Le previsioni meteo generiche non bastano. La presenza della cimice varia da appezzamento a appezzamento. Le decisioni vengono spesso prese per prudenza, con il risultato di aumentare i trattamenti senza avere certezza di efficacia.</p><p>Questa incertezza incide su costi, organizzazione del lavoro e qualità del raccolto.</p><h2>Gestione della cimice asiatica basata sul rischio</h2><p>Un approccio più efficace parte dalla previsione del rischio.</p><p>Valutare:</p><ul><li><p>andamento climatico locale</p></li><li><p>pressione territoriale dell’insetto</p></li><li><p>stato fenologico della coltura</p></li></ul><p>permette di concentrare gli interventi quando la pressione è realmente alta.</p><p>Questo approccio non elimina il problema, ma migliora il rapporto tra numero di trattamenti e risultato ottenuto.</p><h2>Come Tornatura supporta la gestione della cimice asiatica</h2><p>Tornatura integra dati climatici, territoriali e informazioni di campo per stimare l’evoluzione del rischio nel tempo.</p><p>La piattaforma consente di:</p><ul><li><p>visualizzare una mappa di rischio geolocalizzata</p></li><li><p>individuare le aree con priorità maggiore</p></li><li><p>monitorare l’andamento del rischio durante la stagione</p></li></ul><p>Questo aiuta il tecnico a decidere quando intervenire e quando monitorare, riducendo trattamenti non necessari.</p><p>Controlla il rischio cimice asiatica nel tuo campo con Tornatura.<br><a href=\"https://www.tornatura.it/\"><strong>Accedi ora alla web app</strong></a></p>"},"id":"8a949c68-623a-424b-9832-1c312103c0de","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: Cimice asiatica: quando trattare e perché molti interventi falliscono
+
+----
+
+Metatemplate: cimice-asiatica-quando-trattare-gestione-rischio
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Scopri quando trattare la cimice asiatica e perché molti interventi falliscono. Gestione del rischio e supporto decisionale.
+
+----
+
+Ogtemplate: Cimice asiatica: quando intervenire davvero
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Timing, gestione del rischio e cause dei trattamenti inefficaci contro la cimice asiatica.
+
+----
+
+Ogimage: - file://SxFBWAdbGQFV9CX3
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: uP0BPf3VenmmffXO

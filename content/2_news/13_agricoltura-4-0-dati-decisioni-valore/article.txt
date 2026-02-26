@@ -1,0 +1,85 @@
+Title: Quando i dati diventano decisioni (e valore in campo)
+
+----
+
+Coverimg: - file://HzMqItGSwYkJ1D7G
+
+----
+
+Tags: Agricoltura 4.0
+
+----
+
+Date: 2025-11-06
+
+----
+
+Blocks: [{"content":{"text":"<h2>Perché non basta “avere i dati”</h2><p>Sensori, stazioni meteo, immagini satellitari generano informazioni preziose. Ma senza un processo che le interpreti, restano numeri. </p><p>Tornatura integra fonti eterogenee (meteo ad alta risoluzione, indici di vegetazione e rilievi aziendali) e le organizza in un flusso continuo che parte dalla raccolta dei dati, prosegue con la pulizia e l’integrazione, arriva alla stima del rischio e si traduce in <strong>indicazioni operative su quando e dove intervenire</strong>.</p>"},"id":"30e01968-c725-4e40-abb7-f76aef8c4c59","isHidden":false,"type":"text"},{"content":{"text":"<h2>Il vantaggio competitivo del timing</h2><p>La differenza economica si gioca spesso su finestre temporali strette. Anticipare un picco di rischio significa ridurre trattamenti “a calendario”, abbassare i costi operativi, limitare passaggi a vuoto e consolidare rese e qualità. </p><p>L’IA non sostituisce l’esperienza: la amplifica, offrendo un quadro coerente anche in stagioni irregolari.</p>"},"id":"81312d1c-c705-4653-81c9-b124ff753a3c","isHidden":false,"type":"text"},{"content":{"text":"<h2>Dal dato all’azione</h2><p>Nella piattaforma, l’agricoltore vedrà mappe di rischio, andamenti previsionali a breve termine e suggerimenti prioritizzati. L’agronomo aggiunge la lettura professionale, definendo tattiche di monitoraggio e difesa calibrate per appezzamento. </p><p><strong>Risultato: ciclo decisionale tracciabile, replicabile e comunicabile a clienti, soci e filiere.</strong></p>"},"id":"eb612ed2-5e3b-4d1d-b068-58fbec95db81","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: In agricoltura 4.0 i dati non bastano: servono modelli e workflow per trasformarli in scelte operative. Ecco come Tornatura supporta monitoraggio e difesa.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: fEyC19trsUEH1AWC

@@ -1,0 +1,85 @@
+Title: Peronospora: come decidere quando intervenire in stagioni sempre più instabili
+
+----
+
+Coverimg: - file://okVrBikPbKKAEMvt
+
+----
+
+Tags: Agricoltura 4.0
+
+----
+
+Date: 2026-02-04
+
+----
+
+Blocks: [{"content":{"text":"<p>Chi segue la vite sa che la peronospora non segue più schemi regolari. Le finestre operative si sono ridotte e il calendario non è più una guida affidabile.</p><p>Dai primi risultati della <a href=\"https://www.tornatura.it/\">survey Tornatura</a> emerge chiaramente: <strong>molti interventi vengono fatti per timore di perdere il momento giusto</strong>. Il risultato è un aumento dei trattamenti e dei costi, senza la certezza di aver agito nel modo migliore.</p><p>Il punto critico è capire <strong>se le condizioni sono davvero favorevoli all’infezione</strong>, non solo se ha piovuto. Servono informazioni che tengano conto del contesto locale, dell’andamento stagionale e meteorologico.</p><p>Un sistema di supporto decisionale permette di valutare il rischio in modo più preciso e di intervenire solo quando serve. Questo rende la difesa più efficace e più sostenibile.</p><p>Tornatura aiuta l’agronomo a leggere il rischio peronospora in modo dinamico, riducendo gli interventi inutili e migliorando la gestione complessiva.<br>Valuta il rischio peronospora con Tornatura.<br><br><a href=\"https://datastation.tornatura.it/welcome\"><strong>Prova ora l'applicazione</strong></a> per dati precisi, dettagliati e supportare le tue prossime azioni. </p>"},"id":"5b906c50-e5b9-4a61-9662-0959ff80f2ec","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: Peronospora: come decidere quando intervenire in stagioni instabili
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Calendari sempre meno affidabili e finestre operative strette. Come valutare il rischio peronospora e ridurre trattamenti inutili.
+
+----
+
+Ogtemplate: Peronospora: quando intervenire davvero
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Come leggere il rischio peronospora in stagioni sempre più variabili e prendere decisioni tecniche più mirate.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: rNGshE2liWbsV2k8

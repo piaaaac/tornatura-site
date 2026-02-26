@@ -1,0 +1,85 @@
+Title: Tornatura al corso “Economics and Policy of Innovation in Agriculture”
+
+----
+
+Coverimg: - file://tVuFEVJPTxTXnWFt
+
+----
+
+Tags: Evento
+
+----
+
+Date: 2025-11-06
+
+----
+
+Blocks: [{"content":{"text":"<p>Durante il corso “<strong>Economics and Policy of Innovation in Agriculture</strong>”, tenuto dal professor Luca Mulazzani per gli studenti della Laurea Magistrale in Precise and Sustainable Agriculture presso l’Università di Bologna, Eleonora Ocello e Vito Palmisano di Fondazione IFAB hanno presentato Tornatura. L’incontro scaturisce dagli obiettivi formativi del corso, che porta gli studenti a comprendere gli effetti economici dell’introduzione di metodi innovativi nelle aziende agricole, le scelte strategiche d’impresa, le politiche per la sostenibilità e gli strumenti di policy a supporto dell’innovazione.</p><p>Tornatura è stato presentato come <strong>esempio concreto di innovazione abilitata dai dati</strong>: una piattaforma che integra informazioni meteorologiche, telerilevamento e rilievi di campo per supportare decisioni tempestive e misurabili. Il confronto con gli studenti ha toccato temi centrali per l’economia dell’innovazione, come la valutazione del ritorno degli investimenti, l’impatto sulle pratiche di sostenibilità, l’importanza della tracciabilità e la necessità di modelli di governance dei dati chiari e condivisi.</p><p>La discussione si è concentrata anche sugli strumenti di policy utili a <strong>favorire la diffusione di tecnologie digitali in agricoltura.</strong> Sono emerse riflessioni su incentivi e barriere all’adozione, sul ruolo della cooperazione e delle reti territoriali, e sulle opportunità di raccordo tra ricerca, impresa e istituzioni per accelerare il trasferimento tecnologico. In questo quadro, Tornatura è stato letto non solo come soluzione tecnica, ma come dispositivo organizzativo capace di migliorare coordinamento, pianificazione e sostenibilità dei processi decisionali.</p><p>Gli studenti hanno offerto osservazioni puntuali su usabilità, accessibilità e metriche di impatto, con proposte per rendere la piattaforma ancora più efficace nel supporto alle scelte aziendali. Il confronto ha confermato <strong>quanto la prospettiva economica e di policy sia cruciale per trasformare le innovazioni digitali in valore reale</strong>, misurabile e replicabile nel tempo.</p>"},"id":"602016a4-977c-460b-987c-7d6e1b9b6b76","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Al corso di Unibo su economia e policy dell’innovazione, Fondazione IFAB ha presentato Tornatura: dati, modelli e impatti economici per una gestione più sostenibile e misurabile del rischio in agricoltura.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: aN2lZegup4reKILQ
