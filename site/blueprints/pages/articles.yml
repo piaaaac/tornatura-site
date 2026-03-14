@@ -5,6 +5,11 @@ tabs:
     columns:
       main:
         sections:
+          fields2:
+            type: fields
+            fields:
+              showTemplateName:
+                extends: fields/showTemplate
           pages:
             type: pages
             create: article

@@ -1,0 +1,4 @@
+label: false
+type: info
+text: "Page template: ```{{ page.intendedTemplate.name }}```"
+theme: subtle

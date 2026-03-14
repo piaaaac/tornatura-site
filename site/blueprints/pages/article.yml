@@ -39,6 +39,11 @@ tabs:
       sidebar:
         width: 1/3
         sections:
+          fields2:
+            type: fields
+            fields:
+              showTemplateName:
+                extends: fields/showTemplate
           pages: false
           files:
             type: files
