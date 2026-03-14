@@ -228,6 +228,40 @@ ul {
   }
 }
 
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  position: relative;
+  li {
+    counter-increment: item;
+    position: relative;
+    padding: 0 0 0 2em;
+    margin-bottom: 0.5em;
+    p {
+      margin: 0;
+    }
+    &::before {
+      content: counter(item);
+      position: absolute;
+      left: 0;
+      top: 0.3em;
+      font-weight: 700;
+      margin-right: 10px;
+      content: counter(item);
+      background: black;
+      border-radius: 100%;
+      color: white;
+      font-size: 0.7em;
+      width: 1.7em;
+      height: 1.7em;
+      aspect-ratio: 1/1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
 h1,
 h2,
 h3,

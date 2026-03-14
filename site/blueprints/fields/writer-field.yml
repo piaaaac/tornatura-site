@@ -1,17 +1,21 @@
 label: Text
 type: writer
 marks:
-  - link
   - bold
+  - link
 nodes:
   - heading
   - bulletList
+  - orderedList
   - paragraph
   - horizontalRule
-toolbar:
-  marks:
-    - link
-    - bold
-    - "|"
-    - paragraph
-    - bulletList
+# toolbar:
+#   nodes:
+#     - heading
+#     - bulletList
+#     - orderedList
+#     - paragraph
+#     - horizontalRule
+#   marks:
+#     - link
+#     - bold
