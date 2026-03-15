@@ -216,6 +216,7 @@ ul {
     margin-bottom: 0.5em;
     p {
       margin: 0;
+      margin-bottom: 0.5em;
     }
     &::before {
       content: "›";
@@ -232,13 +233,14 @@ ol {
   list-style-type: none;
   counter-reset: item;
   position: relative;
-  li {
+  & > li {
     counter-increment: item;
     position: relative;
     padding: 0 0 0 2em;
     margin-bottom: 0.5em;
     p {
       margin: 0;
+      margin-bottom: 0.5em;
     }
     &::before {
       content: counter(item);
