@@ -1,6 +1,6 @@
 <?php snippet("header", ["noPadding" => true]) ?>
 
-<?php snippet("home-opening2") ?>
+<?php snippet("home-opening3") ?>
 
 <div class="kt py-space">
   <?= $page->blocks()->toBlocks() ?>
