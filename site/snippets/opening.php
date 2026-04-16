@@ -3,10 +3,16 @@ $title = $page->openingTitle()->isNotEmpty() ? $page->openingTitle()->kti() : $p
 $subtitle = $page->openingSubtitle()->kt();
 $image = $page->openingImage()->isNotEmpty() ? $page->openingImage()->toFile() : null;
 $imageUrl = $image ? $image->url() : null;
-$imageCss = $image ? "url('$imageUrl')" : "none";
+$bgCss = $image ? "url('$imageUrl')" : "none";
+// add background position from kirby panel metadata if available
+$bgPosition = "center center";
+if ($image && $image->focus()->isNotEmpty()) {
+  $focus = $image->focus()->value();
+  $bgPosition = $focus;
+}
 ?>
 
-<section class="page-opening" style="background-image: <?= $imageCss ?>;">
+<section class="page-opening" style="background-image: <?= $bgCss ?>; background-position: <?= $bgPosition ?>;">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2 text-white">

@@ -1,0 +1,61 @@
+Title: Risorse e guide
+
+----
+
+Openingsubtitle: 
+
+----
+
+Openingimage: 
+
+----
+
+Blocks: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: uqbMRJXHiGpiZI8a

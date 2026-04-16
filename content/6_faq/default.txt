@@ -1,0 +1,85 @@
+Title: FAQ
+
+----
+
+Openingtitle: FAQ — Domande frequenti
+
+----
+
+Openingsubtitle: 
+
+----
+
+Openingimage: - file://3udwcie8vqs1rmq6
+
+----
+
+Blocks: [{"content":{"text":"<h6>Sezione 1</h6><h3><strong>Panoramica dell'applicazione</strong></h3>"},"id":"dc2f20fa-2c42-4584-b843-b815c2e539b2","isHidden":false,"type":"text"},{"content":{"spacesize":"25px","customsize":""},"id":"b06aca9b-65a6-4880-ae59-709fb556595e","isHidden":false,"type":"space"},{"content":{"items":[{"itemheader":"<h4>Cos’è Tornatura e a cosa serve?</h4>","itemcontent":"<p>Tornatura è un’<strong>applicazione di interesse agricolo</strong> che utilizza l’Intelligenza Artificiale e modelli previsionali per aiutare agricoltori e tecnici a monitorare le fitopatie, ridurre i trattamenti e migliorare la produttività agricola.</p>"},{"itemheader":"<h4>L’applicazione è gratuita?</h4>","itemcontent":"<p>Sì, l’applicazione è completamente gratuita, sia da scaricare che da utilizzare.</p>"},{"itemheader":"<h4>Perché utilizzare Tornatura?</h4>","itemcontent":"<p>Tornatura offre <strong>numerosi vantaggi</strong> per gli agricoltori e i tecnici agricoli.&nbsp;</p><p>Per la <strong>peronospora</strong>:&nbsp;</p><ul><li><p>maggiore profitto, grazie all’ottimizzazione delle risorse, alla riduzione dei costi legati ai trattamenti e all’aumento della produttività;</p></li><li><p>gestione semplificata: diagnosi rapide tramite foto, pianificazione basata su previsioni scientifiche;</p></li><li><p>diminuzione dell’uso di trattamenti chimici.&nbsp;&nbsp;</p></li></ul><p><br>Per <strong>scafoideo titano</strong> e <strong>flavescenza dorata</strong>, <strong>cimice asiatica</strong>, <strong>lisso</strong> e <strong>diabrotica del mais</strong>:&nbsp;</p><ul><li><p>monitoraggio delle condizioni attuali e passate del campo;&nbsp;&nbsp;</p></li><li><p>lettura semplificata dei bollettini fitosanitari regionali.&nbsp;</p></li></ul>"},{"itemheader":"<h4>Quali tipi di malattie e insetti vengono monitorati da Tornatura? </h4>","itemcontent":"<p>Al momento sono cinque, selezionati in base al confronto con le Cooperative:&nbsp;&nbsp;</p><ul><li><p>scafoideo titano e flavescenza dorata;</p></li><li><p>peronospora della vite e di altre colture;</p></li><li><p>cimice asiatica;</p></li><li><p>lisso;</p></li><li><p>diabrotica del mais.</p></li></ul>"},{"itemheader":"<h4>Quali dati elabora Tornatura?</h4>","itemcontent":"<p>Nata per offrire un supporto concreto basato sui dati, Tornatura analizza dati eterogenei:&nbsp;</p><ul><li><p>dati climatici e meteorologici (temperatura, umidità, precipitazioni, direzione e intensità del vento, dati storici e previsioni meteo), che permettono di anticipare le condizioni favorevoli allo sviluppo delle malattie delle colture;&nbsp;</p></li><li><p>bollettini fitosanitari e monitoraggio insetti, per supportare le strategie di difesa;&nbsp;</p></li><li><p>dati colturali e di campo (coltura e varietà/cultivar, anno di impianto e rotazione colturale, dimensione del campo, tessitura del suolo, irrigazione e inerbimento).</p></li></ul>"},{"itemheader":"<h4>Quali aree sono coinvolte da Tornatura?</h4>","itemcontent":"<p>Tornatura copre tutta Italia.&nbsp;</p>"},{"itemheader":"<h4>Che cosa cambia rispetto alle soluzioni già esistenti?</h4>","itemcontent":"<p>Tornatura è frutto della collaborazione tra centri di ricerca d’eccellenza e Cooperative agricole.&nbsp;&nbsp; Da questa co-progettazione derivano:&nbsp;&nbsp;</p><ul><li><p>la possibilità di aggregare dati di tipo diverso in un unico ambiente;&nbsp;</p></li><li><p>l’opportunità per agronomi e agricoltori di interagire con il team tecnico;&nbsp;</p></li><li><p>la disponibilità di una soluzione open source e gratuita per tutti.&nbsp;&nbsp;</p></li></ul>"}]},"id":"8fd6a0ff-f964-4e5f-97a8-1b3963bd26ce","isHidden":false,"type":"accordion"},{"content":{"spacesize":"100px","customsize":""},"id":"084b8e23-47a0-4a8f-9dd9-f2aeda222594","isHidden":false,"type":"space"},{"content":{"text":"<h6>Sezione 2</h6><h3><strong>Interfaccia utente</strong></h3>"},"id":"3cf9af57-026c-48f5-ae3e-8bc349d0760f","isHidden":false,"type":"text"},{"content":{"spacesize":"25px","customsize":""},"id":"b8457c49-1df2-42fa-87fe-872089197256","isHidden":false,"type":"space"},{"content":{"items":[{"itemheader":"<h4>Come posso accedere a Tornatura?</h4>","itemcontent":"<p>Si accede direttamente dal sito web di Tornatura tramite il link: <a href=\"https://app.tornatura.it/welcome\" target=\"_blank\">Tornatura.</a></p>"},{"itemheader":"<h4>Sono necessari dispositivi specifici? Che caratteristiche deve avere il mio telefono o il mio computer per accedere a Tornatura?</h4>","itemcontent":"<p>Puoi utilizzare Tornatura agevolmente dal tuo smartphone/tablet o dal tuo computer. L’applicazione è ottimizzata per effettuare la perimetrazione e descrizione del campo dal computer e i rilevamenti e il monitoraggio da un dispositivo mobile.&nbsp;&nbsp;</p><p>Tornatura è una web-app, perciò non ci sono vincoli di sistema operativo, né di spazio di archiviazione.</p>"},{"itemheader":"<h4>I dati che inserisco sono al sicuro?</h4>","itemcontent":"<p>Tutti i dati inseriti dall’utente vengono trattati in modo sicuro e nel pieno rispetto delle normative sulla privacy e protezione dati. La condivisione dei dati consente alla singola azienda agricola di ottenere soluzioni personalizzate e, più dati vengono raccolti, maggiore è la precisione delle previsioni. In questo modo, le previsioni per il tuo campo tengono conto anche dell’influenza dei terreni circostanti, offrendo una visione complessiva e più accurata.</p>"},{"itemheader":"<h4>L’app funziona offline?</h4>","itemcontent":"<p>No, l’app non funziona offline.</p>"},{"itemheader":"<h4>È possibile ricevere notifiche o avvisi automatici?</h4>","itemcontent":"<p>In app non sono disponibili notifiche e avvisi automatici.</p>"},{"itemheader":"<h4>Posso parlare con il team tecnico?</h4>","itemcontent":"<p>Sì, attraverso diversi canali:&nbsp;&nbsp;</p><ul><li><p>Sezione feedback in app&nbsp;</p></li><li><p>Whatsapp Business: <a href=\"https://chat.whatsapp.com/Gsoccorkykv5leO0bTHzFs\" target=\"_blank\">https://chat.whatsapp.com/Gsoccorkykv5leO0bTHzFs</a></p></li><li><p>Mail: <a href=\"mailto:tornatura.ai@ifabfoundation.org\" target=\"_blank\">tornatura.ai@ifabfoundation.org</a></p></li></ul>"},{"itemheader":"<h4>Quali output mi fornisce Tornatura?</h4>","itemcontent":"<p>Tornatura restituisce:&nbsp;</p><ul><li><p>dataset con i rilevamenti effettuati;&nbsp;</p></li><li><p>modello previsionale della diffusione della peronospora a livello provinciale, con mappa di rischio;&nbsp;</p></li><li><p>estrazione aggiornata dei bollettini fitosanitari regionali.&nbsp;</p></li></ul>"},{"itemheader":"<h4>Che cosa mi restituisce la mappa di rischio e come si legge?</h4>","itemcontent":"<p>Per ogni appezzamento di terreno, la mappa di rischio mostra il livello di rischio attuale per gli insetti e le malattie target e l’evoluzione prevista nei prossimi 7-14 giorni.&nbsp; Inoltre, ti indica le finestre di trattamento ottimali e ti informa sulle condizioni meteo favorevoli o sfavorevoli.&nbsp;</p><p>Guida alla legenda della mappa di rischio:&nbsp;</p><ul><li><p>Colore verde: nessun rischio rilevato&nbsp;</p></li><li><p>Colore giallo: livello di sorveglianza&nbsp;</p></li><li><p>Colore arancione: livello di attenzione&nbsp;</p></li><li><p>Colore arancione scuro: rischio elevato&nbsp;</p></li><li><p>Colore rosso: rischio molto elevato.</p></li></ul>"},{"itemheader":"<h4>Posso esportare i report dei rilevamenti?</h4>","itemcontent":"<p>Sì, puoi esportare i report comodamente dal dataset dei rilevamenti.</p>"}]},"id":"d0f3412f-d0af-4718-bced-4d300ea7ad30","isHidden":false,"type":"accordion"},{"content":{"spacesize":"100px","customsize":""},"id":"6bf89c13-ea65-4f92-a1f2-94a062da3118","isHidden":false,"type":"space"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: S6fMIXEUuMewupJR

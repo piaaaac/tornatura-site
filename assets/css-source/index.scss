@@ -200,7 +200,9 @@ h3 {
 
 p {
   @include font-sans-m;
-  margin-bottom: 1em;
+  &:not(:last-child) {
+    margin-bottom: 0.7em;
+  }
   strong {
     font-weight: 600;
     @include font-sans-m;
@@ -270,7 +272,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 0.6em;
+  &:not(:last-child) {
+    margin-bottom: 0.6em;
+  }
   font-weight: 600;
 }
 h1,
@@ -287,7 +291,7 @@ h2 {
     $lg: 2.2rem,
     $xl: 2.2rem,
     $letter-sp: 0,
-    $line-h: 1.05em
+    $line-h: 1.15em
   );
 }
 h3 {
@@ -299,7 +303,7 @@ h3 {
     $lg: 1.8rem,
     $xl: 1.8rem,
     $letter-sp: 0,
-    $line-h: 1.05em
+    $line-h: 1.15em
   );
 }
 h4 {
@@ -309,7 +313,7 @@ h5 {
   @include font-sans-s;
 }
 h6 {
-  @include font-mono-s;
+  @include font-mono-xs;
 }
 
 img {
@@ -319,8 +323,8 @@ img {
 figure {
   display: block;
   width: 100%;
-  margin-top: $space;
-  margin-bottom: $space;
+  // margin-top: $space;
+  // margin-bottom: $space;
   figcaption p,
   figcaption {
     @include font-sans-s;
@@ -402,10 +406,7 @@ section {
   transition: all 0.1s;
   text-decoration: none;
   &:hover {
-    // background-color: $green1;
-    // color: white;
-    background-color: $green2;
-    background-color: $green1;
+    background-color: darken($yelo, 10%);
   }
 
   &[data-icon]::before {
@@ -758,11 +759,97 @@ section {
 }
 
 // -----------------------------------------------------------------------------
+// SPECIFIC BLOCK - ACCORDION
+// -----------------------------------------------------------------------------
+
+.accordion {
+  // max-width: 600px;
+  // margin: 0 #{$space * -2};
+  // background: white;
+  // border-radius: 12px;
+  // box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  // &:last-child {
+  //   border-bottom: none;
+  // }
+  & + .accordion-item {
+    border-top: none;
+  }
+
+  .accordion-header {
+    scroll-margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    // background: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    user-select: none;
+    &:hover {
+      opacity: 0.8;
+    }
+    .accordion-title {
+      flex-grow: 1;
+      margin: 0;
+      width: calc(100% - 20px);
+      &,
+      p,
+      h3,
+      h4 {
+        margin-bottom: 0;
+      }
+    }
+    .accordion-arrow {
+      width: 20px;
+      height: 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      &::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-right: 1.5px solid black;
+        border-bottom: 1.5px solid black;
+        transform: rotate(45deg);
+        transition: inherit;
+      }
+      &.active {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .accordion-content {
+    overflow: hidden;
+    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    height: 0;
+    .accordion-body {
+      padding-bottom: 20px;
+      // padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
 // Template: default
 // -----------------------------------------------------------------------------
 
 section.page-opening {
   background-color: #222;
+  background-size: cover;
+  // background-position: center center;
 }
 
 // -----------------------------------------------------------------------------
@@ -925,6 +1012,9 @@ section.home-opening1-image {
     text-decoration: none;
     & + .menu-item {
       margin-left: 18px;
+    }
+    &.current {
+      text-decoration: underline;
     }
   }
 }

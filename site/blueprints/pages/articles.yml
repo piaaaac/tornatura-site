@@ -8,6 +8,19 @@ tabs:
           fields2:
             type: fields
             fields:
+              # Opening ----------------------------
+              openingTitle:
+                type: text
+                label: Opening title
+                placeholder: "{{ page.title }}"
+              openingSubtitle:
+                type: textarea
+                label: Opening subtitle
+              openingImage:
+                type: files
+                max: 1
+                label: Opening background Image
+              # Opening ----------------------------
               showTemplateName:
                 extends: fields/showTemplate
           pages:

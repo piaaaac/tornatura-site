@@ -35,10 +35,7 @@ tabs:
               # •••••••••••••••••••••••••••••
 
               blocks:
-                type: blocks
-                fieldsets:
-                  - text
-                  - image
+                extends: fields/block-field
 
       sidebar:
         width: 1/3

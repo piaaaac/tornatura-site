@@ -17,17 +17,21 @@ Menuitems:
   menulink: page://5vwqiQJTd0m62Fg4
   active: 'true'
 - 
+  menutext: Risorse e guide
+  menulink: page://uqbMRJXHiGpiZI8a
+  active: 'true'
+- 
   menutext: FAQ
   menulink: page://S6fMIXEUuMewupJR
   active: 'true'
 
 ----
 
-Metatemplate: 
+Metatemplate: Tornatura
 
 ----
 
-Metadescription: 
+Metadescription: L'Intelligenza Artificialeper un'agricoltura più sostenibile e produttiva
 
 ----
 
@@ -47,7 +51,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: summary
+Cropogimage: true
 
 ----
 
@@ -72,3 +76,7 @@ Robotssnippet: true
 ----
 
 Socialmediaaccounts: 
+
+----
+
+Twittercardtype: summary

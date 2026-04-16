@@ -1,58 +1,71 @@
-// ----------------------------------------------------------------
+// ----------------------------------------------------------------------------
 // Block: accordion
-// ----------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 class Accordion {
-  containerNode;
-  items = [];
-
-  constructor(sectionId) {
-    const that = this;
-
-    this.containerNode = document.getElementById(sectionId);
-
-    this.containerNode.querySelectorAll(".acc-item").forEach((node) => {
-      const item = {
-        node: node,
-        headerNode: node.querySelector(".acc-item-header"),
-        contentNode: node.querySelector(".acc-item-content"),
-        toggleBtnNode: node.querySelector(".acc-item-toggle-btn"),
-        isOpen: null,
-      };
-      that.items.push(item);
-      that.hideContent(item);
-      item.headerNode.onclick = function () {
-        that.toggleContent(item);
-      };
-      console.log(item);
-    });
+  constructor(element) {
+    this.accordion = element;
+    this.items = this.accordion.querySelectorAll(".accordion-item");
+    this.init();
+    this.accordion.dataset.initialized = "true";
   }
 
-  showContent(item) {
-    this.hideAllContents();
-    item.contentNode.style.display = "block";
-    item.node.classList.add("open");
-    item.isOpen = true;
-  }
-
-  hideContent(item) {
-    item.contentNode.style.display = "none";
-    item.node.classList.remove("open");
-    item.isOpen = false;
-  }
-
-  hideAllContents() {
-    const that = this;
+  init() {
     this.items.forEach((item) => {
-      that.hideContent(item);
+      const header = item.querySelector(".accordion-header");
+      const content = item.querySelector(".accordion-content");
+      const arrow = item.querySelector(".accordion-arrow");
+
+      header.addEventListener("click", () => {
+        this.toggleItem(item, content, arrow);
+      });
     });
   }
 
-  toggleContent(item) {
-    if (item.isOpen) {
-      this.hideContent(item);
-    } else {
-      this.showContent(item);
+  toggleItem(item, content, arrow) {
+    const isActive = content.style.height && content.style.height !== "0px";
+
+    // Close all items
+    this.closeAllItems();
+
+    // If the clicked item wasn't active, open it
+    if (!isActive) {
+      this.openItem(item, content, arrow);
     }
   }
+
+  openItem(item, content, arrow) {
+    const body = content.querySelector(".accordion-body");
+    const header = item.querySelector(".accordion-header");
+    const height = body.scrollHeight;
+
+    content.style.height = height + "px";
+    arrow.classList.add("active");
+
+    // setTimeout(() => {
+    //   header.scrollIntoView({ behavior: "smooth", block: "start" });
+    // }, 300); // wait for opening animation if any
+  }
+
+  closeAllItems() {
+    this.items.forEach((item) => {
+      const content = item.querySelector(".accordion-content");
+      const arrow = item.querySelector(".accordion-arrow");
+
+      content.style.height = "0px";
+      arrow.classList.remove("active");
+    });
+  }
+}
+
+// ----------------------------------------------------------------------------
+// Utility functions
+// ----------------------------------------------------------------------------
+
+function initNewAccordions() {
+  const accordions = document.querySelectorAll(".accordion[data-initialized=false]");
+  accordions.forEach((accordionElement) => {
+    const acc = new Accordion(accordionElement);
+    console.log(acc);
+  });
 }

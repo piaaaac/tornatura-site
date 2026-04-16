@@ -35,3 +35,11 @@ function map($value, $fromLow, $fromHigh, $toLow, $toHigh)
   // Re-zero back to the to range
   return $tmpValue + $toLow;
 }
+
+
+// https://stackoverflow.com/a/13733588
+function pseudoRandomBytes($length = 10)
+{
+  $bytes = random_bytes($length);
+  return bin2hex($bytes);
+}

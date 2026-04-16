@@ -24,11 +24,7 @@ tabs:
               # Opening ----------------------------
 
               blocks:
-                type: blocks
-                fieldsets:
-                  - text
-                  - image
-                  - subpages
+                extends: fields/block-field
 
       sidebar:
         width: 1/3

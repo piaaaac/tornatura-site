@@ -2,6 +2,18 @@ Title: News ed eventi
 
 ----
 
+Openingtitle: 
+
+----
+
+Openingsubtitle: 
+
+----
+
+Openingimage: - file://shfryca3mpul0gjp
+
+----
+
 Metatitle: 
 
 ----

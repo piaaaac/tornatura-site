@@ -10,10 +10,7 @@ tabs:
             type: fields
             fields:
               blocks:
-                type: blocks
-                fieldsets:
-                  - text
-                  - image
+                extends: fields/block-field
       sidebar:
         width: 1/3
         sections:

@@ -1,0 +1,50 @@
+panel.plugin("piaaaac/multicolumns", {
+  blocks: {
+    multicolumns: {
+      template: `
+        <div style="background-color: none;" class="k-multicolumns-preview" @click="open">
+          <div class="k-multicolumns-grid" :style="gridStyle">
+            <div v-for="(col, i) in cols" :key="i" class="k-multicolumns-col">
+              <k-blocks :value="col.blocks?.value || []" />
+            </div>
+          </div>
+        </div>
+      `,
+      computed: {
+        cols() {
+          if (!this.content.columns) return [];
+          return this.content.columns.map((col) => {
+            // If the Panel gives you JSON strings, parse them
+            if (typeof col === "string") {
+              try {
+                col = JSON.parse(col);
+              } catch (e) {
+                return {};
+              }
+            }
+            return col;
+          });
+        },
+        gridStyle() {
+          // Convert Bootstrap widths (1–12) into CSS grid fractions
+          const frs = this.cols.map((col) => {
+            const w = parseInt(col.width || "12", 10);
+            return `${w}fr`;
+          });
+          return {
+            display: "grid",
+            gap: "1rem",
+            gridTemplateColumns: frs.join(" "),
+          };
+        },
+      },
+
+      mounted() {
+        // console.log("columns:", this.content.columns);
+        // console.log("parsed cols:", this.cols);
+        console.log("~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~");
+        console.log("COLUMN:", this.cols[0].blocks);
+      },
+    },
+  },
+});

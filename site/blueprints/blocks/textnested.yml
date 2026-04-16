@@ -1,0 +1,7 @@
+name: Text (nested)
+icon: text
+wysiwyg: true
+preview: text
+fields:
+  text:
+    extends: fields/writer-field

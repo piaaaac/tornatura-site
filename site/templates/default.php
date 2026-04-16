@@ -3,7 +3,7 @@
 <?php snippet("opening") ?>
 
 <div class="space-2"></div>
-<div class="blocks py-space">
+<div class="blocks">
   <?= $page->blocks()->toBlocks() ?>
 </div>
 <div class="space-1"></div>

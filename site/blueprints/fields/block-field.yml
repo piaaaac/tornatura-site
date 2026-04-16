@@ -1,0 +1,8 @@
+type: blocks
+fieldsets:
+  - text
+  - space
+  - image
+  - accordion
+  - subpages
+  - multicolumns
