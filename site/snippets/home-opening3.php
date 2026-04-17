@@ -15,7 +15,7 @@ $leafPattern = $ass . "/patterns/pattern-w0.2.svg";
   <div class="text">
     <div>
       <h2><em>L'Intelligenza Artificiale</em><br />per un'agricoltura più <br class="d-none d-sm-inline" />sostenibile e&nbsp;produttiva</h2>
-      <p><a class="button" href="https://app.tornatura.it">SCOPRI LA WEB APP</a></p>
+      <p><a class="font-sans-s upper button py-2 px-3" href="https://app.tornatura.it">Scopri la web app</a></p>
     </div>
   </div>
   <div class="mockups">
@@ -33,10 +33,28 @@ $leafPattern = $ass . "/patterns/pattern-w0.2.svg";
 <section>
   <div class="container-fluid ">
     <div class="row">
-      <div class="col-lg-6">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt </div>
-      <div class="col-lg-5">img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img </div>
-      <div class="col-lg-5">img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img img </div>
-      <div class="col-lg-6 offset-lg-1">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt </div>
+      <div class="col-lg-6 align-self-center my-5">
+        <h3><strong>Cos'è Tornatura</strong></h3>
+        <p>Tornatura è una piattaforma gratuita che usa l’intelligenza artificiale per aiutare agricoltori e agronomi a prevedere i rischi fitosanitari e gestire meglio i trattamenti. Incrocia dati meteo, immagini satellitari e informazioni dal campo per trasformare la complessità in indicazioni chiare e operative.</p>
+        <!--  
+        <p class="my-4">
+          <a href="<?= page("cos-e-tornatura")->url() ?>" class="font-sans-s upper button py-2 px-3">Scopri come funziona</a>
+        </p>
+        -->
+      </div>
+      <div class="col-lg-5 my-5">
+        <img src="<?= $ass ?>/home-opening3/hp-intro-1.jpg" class="w-100 rounded-more" alt="Demo visualization of the Tornatura web app" />
+      </div>
+      <div class="col-lg-5 my-5">
+        <img src="<?= $ass ?>/home-opening3/hp-intro-2.jpg" class="w-100 rounded-more" alt="Using Tornatura in the field" />
+      </div>
+      <div class="col-lg-6 offset-lg-1 align-self-center my-5">
+        <h3><strong>Tornatura è open source e gratuita</strong></h3>
+        <p>Puoi usarla subito, senza costi e senza vincoli. Inserisci i tuoi campi, osserva i dati, consulta le mappe di rischio e supporta le decisioni agronomiche con informazioni aggiornate e localizzate.</p>
+        <p class="my-4">
+          <a href="https://app.tornatura.it" target="_blank" class="font-sans-s upper button py-2 px-3">Apri la web app</a>
+        </p>
+      </div>
     </div>
   </div>
 </section>

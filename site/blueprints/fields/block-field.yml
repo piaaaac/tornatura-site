@@ -3,6 +3,7 @@ fieldsets:
   - text
   - space
   - image
+  - markdown
   - accordion
   - subpages
   - multicolumns

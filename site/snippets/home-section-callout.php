@@ -8,7 +8,7 @@ $bookletImgUrl = "$ass/booklet.png";
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 space-1"></div>
+      <div class="col-12 space-2"></div>
     </div>
 
     <div class="row">
@@ -19,11 +19,14 @@ $bookletImgUrl = "$ass/booklet.png";
 
       <div class="col-lg-6 py-3 d-flex align-items-center order-lg-1">
         <div class="pr-5">
-          <h4>Roadmap Tornatura App</h4>
-          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed turpis sed ipsum vehicula bibendum imperdiet in orci. In vel vestibulum nisi.</p> -->
-          <p>
-            <!-- <a class="button" data-icon="download" href="" target="_blank">Scarica il documento</a> -->
-            <a class="button font-sans-s" disabled href="" target="_blank">Coming soon</a>
+          <h3><strong>Guida di utilizzo della web app</strong></h3>
+          <p>Qui troverai la documentazione dettagliata sull’utilizzo e sulle funzionalità di Tornatura.</p>
+          <p class="my-4">
+            <a href="<?= page("risorse-e-guide")->url() ?>" class="font-sans-s button secondary py-2 px-3">Tutte le guide e risorse</a>
+            <?php if ($file = page("risorse-e-guide")->file('w_guida_rapida-m.pdf')): ?>
+              <a href="<?= $file->url() ?>" target="_blank"
+                class="font-sans-s button py-2 px-3">&darr; Scarica in PDF</a>
+            <?php endif ?>
           </p>
         </div>
       </div>
@@ -31,7 +34,7 @@ $bookletImgUrl = "$ass/booklet.png";
     </div>
 
     <div class="row">
-      <div class="col-12 space-1"></div>
+      <div class="col-12 space-2"></div>
     </div>
 
   </div>

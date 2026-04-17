@@ -8,8 +8,8 @@ $articles = page("news")->children()->listed()->sortBy("date", "desc");
     <div class="row">
 
       <div class="col-12 my-5 py-3 d-flex align-items-center justify-content-between">
-        <h4>News ed eventi</h4>
-        <a class="button" href="<?= page("news")->url() ?>">Tutte le news</a>
+        <h3><strong>News ed eventi</strong></h3>
+        <a class="font-sans-s upper button py-2 px-3" href="<?= page("news")->url() ?>">Tutte le news</a>
       </div>
 
       <?php snippet("article-previews", [

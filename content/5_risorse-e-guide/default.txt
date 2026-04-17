@@ -2,15 +2,27 @@ Title: Risorse e guide
 
 ----
 
+Openingtitle: 
+
+----
+
 Openingsubtitle: 
 
 ----
 
-Openingimage: 
+Openingimage: - file://nagro7i6vxdtkqyf
 
 ----
 
-Blocks: 
+Blocks: [{"content":{"text":"<h3><strong>Guida rapida</strong></h3><p>Up and running in 10 minuti con la guida rapida.</p><p><a href=\"/@/file/wgwjtfn0tdy1vw4p\" target=\"_blank\" title=\"Button Scarica la guida rapida\">↓ Scarica il PDF</a></p>"},"id":"45a197a7-d6d5-486f-a43a-2af3839ed2ea","isHidden":false,"type":"text"},{"content":{"spacesize":"25px","customsize":""},"id":"168d706e-da68-479e-9b12-17c61fdbf0fc","isHidden":false,"type":"space"},{"content":{"text":"<hr><h3><strong>Video guida</strong></h3><p>Approfondisci il setup e le funzionalità di Tornatura con questo video tutorial.<br>&nbsp;</p>"},"id":"f8a55c4a-182d-40f5-8edf-a4be4e1522c9","isHidden":false,"type":"text"},{"content":{"columns":[{"labelforpanel":"Youtube embed","width":"12 / 12","blocks":"[{\"content\":{\"text\":\"<div class=\\\"youtube\\\">\\n<iframe width=\\\"1473\\\" height=\\\"837\\\" src=\\\"https://www.youtube.com/embed/QF5TXTtbSNA\\\" title=\\\"Tornatura: guida all&#39;uso della web app AI per l&#39;agricoltura 4.0\\\" frameborder=\\\"0\\\" allow=\\\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\\\" referrerpolicy=\\\"strict-origin-when-cross-origin\\\" allowfullscreen></iframe>\\n</div>\"},\"id\":\"ff98c2a4-5d3e-42ca-bf3c-24eaad7dab12\",\"isHidden\":false,\"type\":\"markdown\"}]"}]},"id":"c8cf8161-1b84-4ab4-b9c7-289f607d5f11","isHidden":false,"type":"multicolumns"},{"content":{"text":"<p>&nbsp;</p><hr><h3><strong>Documentazione</strong></h3><p><strong>Manuale dell’applicazione</strong></p><p>Scarica il manuale completo di Tornatura in formato pdf</p><p><a href=\"/@/file/vyp1cfuqdjmkccte\" target=\"_blank\" title=\"Button Scarica la guida rapida\">↓ Scarica il PDF</a></p>"},"id":"a754b8e0-4754-4511-afc1-aaa271e4b365","isHidden":false,"type":"text"},{"content":{"spacesize":"100px","customsize":""},"id":"75b74b2b-cbe0-4435-ba0b-0a2857457be6","isHidden":false,"type":"space"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
 
 ----
 
@@ -19,6 +31,10 @@ Usetitletemplate: true
 ----
 
 Metadescription: 
+
+----
+
+Ogtemplate: 
 
 ----
 
@@ -31,6 +47,10 @@ Ogdescription:
 ----
 
 Ogimage: 
+
+----
+
+Cropogimage: 
 
 ----
 

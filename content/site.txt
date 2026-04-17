@@ -7,7 +7,7 @@ Menuitems:
 - 
   menutext: "Cos'è Tornatura"
   menulink: page://uygx7p6gNB3t59V7
-  active: 'true'
+  active: 'false'
 - 
   menutext: News
   menulink: page://emfd4tBl6BC2tQid
@@ -15,7 +15,7 @@ Menuitems:
 - 
   menutext: Chi siamo
   menulink: page://5vwqiQJTd0m62Fg4
-  active: 'true'
+  active: 'false'
 - 
   menutext: Risorse e guide
   menulink: page://uqbMRJXHiGpiZI8a

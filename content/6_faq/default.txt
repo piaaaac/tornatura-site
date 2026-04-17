@@ -2,7 +2,7 @@ Title: FAQ
 
 ----
 
-Openingtitle: FAQ — Domande frequenti
+Openingtitle: Domande frequenti
 
 ----
 
@@ -50,11 +50,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -79,6 +75,14 @@ Robotssnippet: default
 ----
 
 Metainherit: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

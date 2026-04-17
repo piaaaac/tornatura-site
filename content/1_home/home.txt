@@ -18,7 +18,7 @@ Openingtext2: L'agricoltura moderna affronta sfide sempre più complesse: condiz
 
 ----
 
-Blocks: [{"content":{"text":"<h3>Le malattie che monitoriamo</h3><ul><li><p><strong>Flavescenza dorata</strong> - malattia da quarantena della vite&nbsp;</p></li><li><p><strong>Peronospora</strong> - patogeno che colpisce vite e altre colture&nbsp;</p></li><li><p><strong>Cimice asiatica</strong> - insetto dannoso per frutteti (pere, pesche, kiwi)&nbsp;</p></li><li><p><strong>Diabrotica</strong> - parassita chiave delle coltivazioni di mais&nbsp;</p></li></ul><p>&nbsp;</p>"},"id":"8ebafa18-8f3d-426e-951a-48030741eca1","isHidden":false,"type":"text"},{"content":{"text":"<h3>Come funziona Tornatura</h3><p>Tornatura analizza in tempo reale dati meteorologici, satellitari e climatici per creare <strong>mappe di rischio precise</strong> che ti dicono quando, dove e come intervenire. Il risultato? Fino al 35% in meno di trattamenti, fino al 20% in più di produzione, 30% di risparmio energetico per un'agricoltura davvero più sostenibile e redditizia.</p>"},"id":"81e2edd8-2d04-499c-a05e-afd0ba7a1b0f","isHidden":false,"type":"text"}]
+Blocks: 
 
 ----
 
@@ -54,11 +54,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -83,6 +79,14 @@ Robotssnippet: true
 ----
 
 Metainherit: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 
