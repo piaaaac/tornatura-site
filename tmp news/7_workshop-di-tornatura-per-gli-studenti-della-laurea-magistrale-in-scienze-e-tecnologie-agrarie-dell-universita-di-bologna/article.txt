@@ -1,0 +1,85 @@
+Title: Workshop di Tornatura per gli studenti della Laurea Magistrale in Scienze e Tecnologie Agrarie dell’Università di Bologna
+
+----
+
+Coverimg: - file://xJcG49HAVNysSdIs
+
+----
+
+Tags: Evento
+
+----
+
+Date: 2025-05-21
+
+----
+
+Blocks: [{"content":{"text":"<p>Martedì 20 maggio 2025, durante il seminario della Laurea Magistrale in Scienze e Tecnologie Agrarie organizzato dal Dipartimento di Scienze e Tecnologie Agro-Alimentari (DISTAL) dell’Università di Bologna, è stato presentato il progetto innovativo Tornatura.</p><p>L’occasione, <strong>abilitato dal professor Davide Viaggi e da Confcooperative Emilia-Romagna</strong>, ha offerto agli studenti una formazione pratica sulla creazione e gestione delle imprese cooperative, con approfondimenti su modelli di governance, rapporti con soci e stakeholder, e sul sistema cooperativo regionale, in linea con gli obiettivi dell’Agenda 2030 per lo sviluppo sostenibile.</p><p>Nel corso dell’incontro, Eleonora Ocello e Ethel Gallo di Fondazione IFAB hanno illustrato le finalità di Tornatura, progetto selezionato dal Fondo per la Repubblica Digitale - Impresa Sociale e sostenuto da Google.org. <strong>La presentazione è stata seguita da una sessione interattiva durante la quale gli studenti hanno fornito feedback e suggerimenti utili, contribuendo allo sviluppo e al miglioramento del progetto.</strong></p><p>Gli studenti hanno potuto esprimere osservazioni, dubbi e proposte, fornendo feedback preziosi sia sulla funzionalità attuale della piattaforma che sulle possibili migliorie future. Sono emerse riflessioni interessanti su come rendere l’applicazione più accessibile, intuitiva e realmente utile nel lavoro quotidiano degli agricoltori, ma anche idee innovative per ampliare le sue capacità predittive e di allerta precoce.</p>"},"id":"94ebd8eb-00cb-4d98-8757-28392c31c8ac","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: d7GtNG3aqT0x4jGw

@@ -1,0 +1,85 @@
+Title: Flavescenza dorata della vite: sintomi, diffusione e gestione pratica
+
+----
+
+Coverimg: - file://LmczFmUev7mcCi2A
+
+----
+
+Tags: Pillole fitosanitarie
+
+----
+
+Date: 2026-02-02
+
+----
+
+Blocks: [{"content":{"text":"<p>La flavescenza dorata è una delle criticità più complesse della viticoltura italiana. È causata da un fitoplasma trasmesso principalmente da <a href=\"https://it.wikipedia.org/wiki/Scaphoideus_titanus\">Scaphoideus titanus</a> (la cicalina della flavescenza dorata), che è il vettore principale in Europa, e una volta che la pianta è infetta, non esistono soluzioni curative. L'unico intervento possibile resta l'eliminazione delle viti colpite e il controllo del vettore attraverso i trattamenti obbligatori.</p><p><strong>Attenzione alla diagnosi</strong><br>È importante sottolineare che i sintomi della Flavescenza dorata possono essere facilmente confusi con quelli di altri fitoplasmi, come il Legno nero. Ingiallimenti o arrossamenti delle foglie, scarsa lignificazione dei tralci e calo produttivo sono manifestazioni comuni a diverse patologie. La diagnosi visiva, anche supportata dalla tecnologia, non è quindi definitiva: una conferma certa richiede <strong>sempre analisi genetiche di laboratorio</strong>. Il valore dei modelli previsionali e del monitoraggio è quello di identificare <strong>aree e piante a rischio</strong> su cui concentrare i campionamenti e le verifiche.</p><p><strong>La diffusione e il quadro normativo</strong><br>Dal 2000, i trattamenti insetticidi obbligatori contro il vettore, definiti dalle normative regionali in base alle zone e ai periodi di rischio, sono lo strumento fondamentale di lotta. Tuttavia, l'esperienza sul campo mostra che, a parità di obblighi normativi, l'efficacia può variare in base alla pressione reale del patogeno, che cambia con l'andamento climatico e le specificità di ogni appezzamento.</p><p>Per l'agronomo diventa quindi centrale capire quando e dove il rischio è più alto. La previsione, basata su dati climatici, storici e territoriali, permette di orientare il monitoraggio e di dare priorità ai controlli visivi e ai campionamenti negli appezzamenti più esposti, integrando così gli strumenti obbligatori con una strategia più mirata.</p><p><strong>La soluzione: prevenzione basata sul rischio con Tornatura</strong><br>Tornatura nasce proprio per questo. La piattaforma integra modelli previsionali e informazioni geolocalizzate per aiutare il tecnico a valutare il rischio di flavescenza prima che i sintomi siano evidenti. In questo modo le decisioni non si basano solo sull'esperienza, ma anche sui dati, permettendo di ottimizzare le risorse e concentrare l'attenzione dove serve davvero.<br><br>Monitora il rischio di flavescenza dorata nel tuo campo con Tornatura<br><a href=\"https://datastation.tornatura.it/welcome\"><strong>Registrati ed accedi alla web app</strong> </a></p>"},"id":"c1fd31d2-02d2-4f31-87c5-8286ac04e128","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: Flavescenza Dorata della Vite: Sintomi, Controllo e Prevenzione con Tornatura
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Flavescenza dorata: sintomi, diffusione e perché i trattamenti standard non bastano. Scopri come la piattaforma Tornatura utilizza dati e previsioni per un monitoraggio mirato e decisioni agronomiche tempestive. Accesso web app.
+
+----
+
+Ogtemplate: Flavescenza Dorata: Come Passare dalla Cura alla Prevenzione con i Dati
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: I trattamenti obbligatori non fermano la Flavescenza Dorata. Per un viticoltore o un agronomo, la vera sfida è capire *dove* e *quando* il rischio è alto. Scopri come Tornatura integra modelli previsionali per un controllo più efficace e sostenibile.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 8oBq4en4Fb7m6WY7

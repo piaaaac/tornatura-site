@@ -1,0 +1,85 @@
+Title: Peronospora della vite: cos’è, quando rischi davvero e come usare il meteo per prevenirla
+
+----
+
+Coverimg: - file://v2cv4dRpGQ5kEnvp
+
+----
+
+Tags: Pillole fitosanitarie
+
+----
+
+Date: 2025-11-06
+
+----
+
+Blocks: [{"content":{"text":"<p>La <strong>peronospora</strong> (Plasmopara viticola) predilige umidità alta e temperature miti. Colpisce foglie, tralci e grappoli, con ripercussioni sulla quantità e sulla qualità. Nelle prime fasi i sintomi sono poco evidenti: per questo il monitoraggio va guidato da dati, non solo da impressioni.</p><h2>Perché il meteo predice il rischio</h2><p>Pioggia, temperatura, umidità e durata della bagnatura fogliare non sono uno sfondo: sono la trama che fa partire e proseguire le infezioni. Le precipitazioni attivano le primarie e rinnovano l’inoculo; le temperature regolano la velocità del ciclo; umidità e bagnatura prolungata sostengono germinazione e sporulazione. Quando questi fattori si combinano, si aprono vere e proprie <strong>finestre di rischio</strong>: riconoscerle significa giocare d’anticipo.</p><h2>Una prevenzione che funziona davvero</h2><p>La strategia efficace sta in tre mosse semplici. Conosci il vigneto e i suoi <strong>microclimi</strong> (bastano pochi metri di dislivello o esposizione per cambiare il quadro). Prevedi le finestre critiche con <strong>modelli</strong> e <strong>previsioni locali</strong> affidabili. Intervieni <strong>a finestra</strong>, cioè quando il patogeno è favorito: il tempismo vale più della scelta del prodotto.</p><h2>Quali dati servono</h2><p>Meglio puntare su previsioni ad <strong>alta risoluzione</strong>, stime o misure credibili di <strong>bagnatura fogliare</strong>, e  (dove disponibile) segnali di <strong>telerilevamento</strong> per indirizzare i sopralluoghi. Una stazione meteo aziendale aiuta, ma piattaforme che integrano previsioni locali e calcolano la bagnatura funzionano bene anche senza sensori in campo.</p><h2>Dal segnale all’azione</h2><p>Il flusso è lineare: raccogli dati meteo e di campo, calcoli gli indicatori di rischio, ricevi <strong>alert operativi</strong> del tipo “incrementa monitoraggio entro 24–48 ore” o “pianifica l’intervento nella finestra X”, esegui e registri l’azione. Questo permette anche l’analisi a posteriori: cosa ha funzionato, cosa ottimizzare.</p><h2>Errori da evitare</h2><p>Due in particolare: trattare <strong>fuori finestra</strong> (troppo presto o troppo tardi) e basarsi su meteo <strong>troppo generico</strong> per la tua zona. Il terzo, più subdolo, è ignorare le differenze interne al vigneto tra bordi, fondovalle e pendii.</p>"},"id":"84695d79-a427-41c1-9fd8-f5d00c82d2a7","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Cos’è la peronospora della vite e perché pioggia, temperatura, umidità e bagnatura fogliare anticipano le finestre di rischio. Modelli, dati utili e azioni pratiche per intervenire al momento giusto.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: yt8KZyi0j2dZXBV8

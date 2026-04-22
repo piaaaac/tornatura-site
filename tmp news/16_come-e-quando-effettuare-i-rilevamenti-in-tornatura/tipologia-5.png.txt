@@ -1,0 +1,5 @@
+Uuid: 70dmeOBYXdpbzPig
+
+----
+
+Template: blocks/image

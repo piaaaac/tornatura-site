@@ -220,10 +220,10 @@ ul {
   li {
     position: relative;
     padding: 0 0 0 22px;
-    margin-bottom: 0.5em;
+    // margin-bottom: 0.5em;
     p {
       margin: 0;
-      margin-bottom: 0.5em;
+      // margin-bottom: 0.5em;
     }
     &::before {
       content: "›";
@@ -312,7 +312,16 @@ h3 {
   );
 }
 h4 {
-  @include font-sans-m;
+  @include font-style(
+    $ff: $font-sans,
+    $xs: 1.2rem,
+    $sm: 1.2rem,
+    $md: 1.4rem,
+    $lg: 1.4rem,
+    $xl: 1.4rem,
+    $letter-sp: 0,
+    $line-h: 1.15em
+  );
 }
 h5 {
   @include font-sans-s;

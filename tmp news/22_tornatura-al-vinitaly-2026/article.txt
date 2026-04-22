@@ -1,0 +1,85 @@
+Title: Tornatura al Vinitaly 2026
+
+----
+
+Coverimg: - file://fl5ZEPev5qGVk8FT
+
+----
+
+Tags: Evento
+
+----
+
+Date: 2026-04-15
+
+----
+
+Blocks: [{"content":{"text":"<p>La partecipazione di Tornatura al <strong>Vinitaly 2026, la fiera internazionale dei vini e dei distillati,</strong> rappresenta un passaggio naturale nel percorso di sviluppo del progetto. </p><p>Spesso percepito come una fiera dedicata esclusivamente al prodotto finale, <strong>Vinitaly</strong> è in realtà un punto di incontro per l’intera <strong>filiera vitivinicola</strong>: <strong>dalla gestione del vigneto fino alla commercializzazione del vino.</strong></p><p>Nel caso specifico della viticoltura, <strong>Tornatura</strong> consente di <strong>monitorare</strong> l’insorgenza di alcune tra le principali avversità della vite, come la <strong>peronospora</strong> e la <strong>flavescenza dorata</strong>. L’approccio è orientato a un <strong>obiettivo chiaro: intervenire nel momento più opportuno</strong>. Questo consente non solo di migliorare l’efficacia dei trattamenti, ma anche di ridurne il numero, contribuendo a una <strong>gestione più sostenibile</strong> del vigneto.</p><p>La presenza a Vinitaly ha offerto l’opportunità di confrontarsi direttamente con i principali attori del settore: <strong>aziende vitivinicole, agronomi, cooperative e consorzi.</strong> Un dialogo fondamentale per comprendere esigenze concrete e validare l’utilità di strumenti digitali nel contesto operativo quotidiano.</p><p>Un aspetto particolarmente rilevante è l<strong>’importanza della dimensione territoriale</strong>. La gestione delle malattie della vite, infatti, non riguarda il singolo appezzamento, ma richiede una visione coordinata su scala più ampia. In questo senso, <strong>Tornatura</strong> permette ai tecnici agronomi una visione d'insieme sulle aziende con cui collaborano, restituendo un quadro aggiornato su scala territoriale. </p><p>In un contesto in cui la <strong>sostenibilità</strong> è sempre più centrale sia dal punto di vista ambientale che economico, strumenti come <strong>Tornatura</strong> possono giocare un ruolo chiave. La possibilità di basare le decisioni su <strong>dati oggettivi e aggiornati</strong> rappresenta un <strong>vantaggio competitivo</strong> significativo per le aziende vitivinicole.</p><h4><a href=\"https://app.tornatura.it/welcome\"><strong>Accedi ora a Tornatura e rendi sostenibile la gestione del tuo vigneto</strong></a></h4>"},"id":"7d4e20fa-3ebe-407b-a87f-dae285c7fd08","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: sedcNsmuo275oE9P

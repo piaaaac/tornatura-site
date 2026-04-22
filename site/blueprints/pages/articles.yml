@@ -26,6 +26,7 @@ tabs:
           pages:
             type: pages
             create: article
+            info: "{{ page.date.toDate('d.m.Y') }}"
             sortBy: date desc
 
   seo: seo/page

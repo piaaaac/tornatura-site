@@ -1,0 +1,85 @@
+Title: Flavescenza dorata: perché serve coordinamento sul territorio
+
+----
+
+Coverimg: - file://RcPcVTSKsMVOYj41
+
+----
+
+Tags: Pillole fitosanitarie
+
+----
+
+Date: 2026-02-14
+
+----
+
+Blocks: [{"content":{"text":"<p>La flavescenza dorata della vite non è un problema che riguarda una singola azienda. È una malattia che si diffonde su scala territoriale, attraverso il vettore e la mobilità delle coltivazioni.</p><p>Dalle risposte raccolte nel questionario emerge una criticità chiara: la gestione è spesso frammentata. Ogni azienda interviene in modo autonomo, con tempistiche e strategie diverse. Questo porta a risultati disomogenei e rende difficile contenere la diffusione.</p><h2>Flavescenza dorata e territorio: perché l’azione individuale non basta</h2><p>La flavescenza dorata si muove oltre i confini aziendali. Anche quando un’azienda applica correttamente i trattamenti obbligatori contro il vettore, il rischio resta elevato se nelle aree limitrofe non c’è la stessa attenzione.</p><p>Trattamenti non sincronizzati e mancanza di informazioni condivise riducono l’efficacia complessiva. La prevenzione della flavescenza della vite richiede una visione coordinata del territorio.</p><p>La gestione basata solo su segnalazioni locali non è sufficiente quando la pressione della malattia varia tra zone e stagioni.</p><h2>Gestione della flavescenza in cooperativa: un ruolo strategico</h2><p>Le cooperative e i consorzi hanno una posizione centrale nella gestione della flavescenza dorata sul territorio.<br>Possono:</p><ul><li><p>coordinare tecnici e aziende</p></li><li><p>uniformare le indicazioni operative</p></li><li><p>monitorare la diffusione in modo più ampio</p></li></ul><p>La gestione flavescenza cooperativa permette di superare l’approccio individuale e di lavorare su priorità territoriali condivise.</p><p>Per farlo servono strumenti che offrano una lettura aggregata del rischio, mantenendo la possibilità di analizzare il dettaglio del singolo appezzamento.</p><h2>Flavescenza vite: prevenzione basata su dati e modelli previsionali</h2><p>La prevenzione della flavescenza della vite non può basarsi solo sull’obbligo normativo di trattamento contro il vettore.<br>È necessario:</p><ul><li><p>valutare la pressione territoriale</p></li><li><p>identificare le aree più esposte</p></li><li><p>programmare interventi in modo coerente tra aziende vicine</p></li></ul><p>L’uso di dati aggregati e modelli previsionali consente di stimare il rischio su scala più ampia. Questo aiuta a pianificare azioni più coordinate e a ridurre la probabilità di nuove focolai.</p><p>Una mappa di rischio territoriale è uno strumento utile per stabilire priorità e organizzare il monitoraggio.</p><h2>Come Tornatura supporta il coordinamento territoriale</h2><p>Tornatura è progettata anche per un utilizzo a livello cooperativo o consortile.<br>La piattaforma consente di:</p><ul><li><p>visualizzare mappe di rischio su più aziende</p></li><li><p>aggregare dati territoriali</p></li><li><p>individuare le aree con maggiore priorità</p></li><li><p>supportare decisioni condivise tra tecnici</p></li></ul><p>In questo modo la gestione della flavescenza dorata passa da un insieme di azioni isolate a una strategia coordinata.</p><p><a href=\"https://www.tornatura.it/\"><strong>Accedi ora alla community Tornatura</strong> </a></p>"},"id":"7524f3e6-b3a3-4b20-bb52-6f4551fe3f0f","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: Flavescenza dorata: gestione territoriale e ruolo delle cooperative
+
+----
+
+Metatemplate: Flavescenza dorata territorio: prevenzione e gestione in cooperativa
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Perché la flavescenza dorata richiede coordinamento territoriale. Il ruolo delle cooperative nella prevenzione e gestione del rischio.
+
+----
+
+Ogtemplate: Flavescenza dorata e gestione territoriale
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Prevenzione della flavescenza della vite su scala territoriale: coordinamento, dati aggregati e ruolo delle cooperative.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: z5CkSmc16YhuGYFq
