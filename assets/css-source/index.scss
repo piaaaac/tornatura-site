@@ -330,6 +330,11 @@ h6 {
   @include font-mono-xs;
 }
 
+small {
+  display: block;
+  @include font-sans-s;
+}
+
 img {
   display: block;
   width: 100%;

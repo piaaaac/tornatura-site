@@ -13,7 +13,10 @@ return [
   "whoops" => true,
   "routes" => require_once 'routes.php',
   "assets" => [
-    "version" => "0.1.24",
+    "version" => "0.1.25",
+  ],
+  'markdown' => [
+    'extra' => true
   ],
   "thumbs" => [
     "presets" => [
