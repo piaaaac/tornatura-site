@@ -1,6 +1,7 @@
 # TODO
 
-🕸️
+- [ ] Footer github
+- [ ] Footer style
 
 # Done
 
