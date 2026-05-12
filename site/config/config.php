@@ -13,7 +13,7 @@ return [
   "whoops" => true,
   "routes" => require_once 'routes.php',
   "assets" => [
-    "version" => "0.1.25",
+    "version" => "0.1.26",
   ],
   'markdown' => [
     'extra' => true

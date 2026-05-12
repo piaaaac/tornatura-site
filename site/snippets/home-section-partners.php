@@ -1,26 +1,34 @@
 <?php
 $ass = $kirby->url("assets") . "/images";
+$pageUrlChiSiamo = $site->page("chi-siamo") ? $site->page("chi-siamo")->url() : "#";
 ?>
 
-<section class="bg-gray pb-5">
+<section class="bg-white pb-5">
 
-  <div class="container-fluid">
+  <div class="container-fluid pt-3 pb-5">
     <div class="row">
 
       <div class="col-xl-4 d-flex align-items-center">
-        <p class="pt-5 pr-4 mt-4 mt-xl-0 font-sans-s">Un progetto selezionato e sostenuto dal&nbsp;Fondo per la Repubblica Digitale Impresa sociale</p>
+        <div class="pt-5 mt-4 mt-xl-0">
+          <h3><strong>Partners e Team</strong></h3>
+          <p class="pr-4">Un progetto selezionato e sostenuto dal&nbsp;Fondo per la Repubblica Digitale Impresa sociale</p>
+          <p class="py-2">
+            <a class="font-sans-s button py-2 px-3" href="<?= $pageUrlChiSiamo ?>">Vedi il team e tutti i partner</a>
+          </p>
+        </div>
       </div>
-      <div class="col-sm-6 col-xl-4 d-flex align-items-center">
-        <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-fin-frd.png" alt="Fondo Repubblica Digitale" /></a>
+      <div class="col-sm-6 col-xl-4 d-flex align-items-center justify-content-center">
+        <a href="<?= $pageUrlChiSiamo ?>" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-fin-frd.png" alt="Fondo Repubblica Digitale" /></a>
       </div>
-      <div class="col-sm-6 col-xl-4 d-flex align-items-center">
-        <a href="" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-fin-google.png" alt="Google" /></a>
+      <div class="col-sm-6 col-xl-4 d-flex align-items-center justify-content-center">
+        <a href="<?= $pageUrlChiSiamo ?>" class="d-inline-block" style="max-width: 45%;"><img class="partner-logo" src="<?= $ass ?>/partners3/partner-logo-fin-google.png" alt="Google" /></a>
       </div>
 
     </div>
   </div>
 </section>
 
+<?php /*  
 <section class="">
   <div class="container-fluid">
     <div class="row">
@@ -68,3 +76,4 @@ $ass = $kirby->url("assets") . "/images";
   </div>
 
 </section>
+*/ ?>
