@@ -10,13 +10,13 @@ $fieldId = "block-acc-" . pseudoRandomBytes();
         <div class="accordion-item">
           <div class="accordion-header">
             <div class="accordion-title">
-              <?= $item->itemHeader()->kt() ?>
+              <?= $item->itemHeader() ?>
             </div>
             <button class="accordion-arrow"></button>
           </div>
           <div class="accordion-content">
             <div class="accordion-body">
-              <?= $item->itemContent()->kt() ?>
+              <?= $item->itemContent() ?>
             </div>
           </div>
         </div>
