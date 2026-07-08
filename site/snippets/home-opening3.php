@@ -10,6 +10,8 @@ $bgImage = $ass . "/home-opening3/bg-image-a.jpg";
 $leafPattern = $ass . "/patterns/pattern-w0.2.svg";
 ?>
 
+<!-- LANDING SCREEN ----------------------------------------------------------->
+
 <section class="home-opening3" style="background-image: url('<?= $bgImage ?>');">
   <div class="bg-2" style="background-image: url('<?= $leafPattern ?>');"></div>
   <div class="text">
@@ -29,6 +31,34 @@ $leafPattern = $ass . "/patterns/pattern-w0.2.svg";
     <?php endforeach ?>
   </div>
 </section>
+
+<!-- VIDEO -------------------------------------------------------------------->
+
+<section class="hp-video">
+  <div class="video-container">
+    <img class="yt-preview-img" src="<?= $kirby->url("assets") ?>/images/home-vid-cover.webp" alt="Video Preview">
+    <button class="custom-play-btn button py-2 px-3"><i class="ri-play-large-fill"></i>&nbsp; Riproduci il video</button>
+    <div class="video-embed-wrapper"></div>
+  </div>
+</section>
+<script>
+  document.querySelector('.video-container').addEventListener('click', function() {
+    const videoContainer = this.querySelector('.video-embed-wrapper');
+    const videoId = '7H7Ug3qLB4U';
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`); //&mute=1
+    iframe.setAttribute('width', '560');
+    iframe.setAttribute('height', '315');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allow', 'autoplay; encrypted-media'); // Permissions policy required for autoplay
+    iframe.setAttribute('allowfullscreen', 'true');
+    videoContainer.appendChild(iframe);
+    this.querySelector('.yt-preview-img').style.display = 'none';
+    this.querySelector('.custom-play-btn').style.display = 'none';
+  });
+</script>
+
+<!-- IMAGES & CTA ------------------------------------------------------------->
 
 <section>
   <div class="container-fluid ">

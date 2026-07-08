@@ -2,3 +2,5 @@
 <?= css(['assets/css/index.css?v=' . option('assets.version')]) ?>
 <?= js(['assets/js/functions-polyfills.js?v=' . option('assets.version')]) ?>
 <?= js(['assets/js/sections-and-blocks.js?v=' . option('assets.version')]) ?>
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
